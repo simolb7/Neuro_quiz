@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153f66">
+  <title>Neuroengineering Mock Exam</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Neuroengineering Mock Exam</h1>
+  </header>
+
+  <main class="page-shell">
+    <section id="setup-screen" class="panel" aria-labelledby="setup-title">
+      <h2 id="setup-title">Create an exam</h2>
+      <p>Choose which section to use. Each exam contains 24 randomly selected questions.</p>
+
+      <fieldset class="section-options">
+        <legend>Question sections</legend>
+        <label>
+          <input type="radio" name="section" value="A" checked>
+          <span><strong>Only Part A</strong><small id="part-a-status">Loading questions…</small></span>
+        </label>
+        <label class="unavailable">
+          <input id="part-b-option" type="radio" name="section" value="B" disabled>
+          <span><strong>Only Part B</strong><small id="part-b-status">Future</small></span>
+        </label>
+        <label class="unavailable">
+          <input id="both-option" type="radio" name="section" value="AB" disabled>
+          <span><strong>Both</strong><small id="both-status">Available when Part B is added</small></span>
+        </label>
+      </fieldset>
+
+      <p class="scoring">Scoring: <strong>+0.5</strong> correct, <strong>−0.25</strong> incorrect, <strong>0</strong> unanswered.</p>
+      <p id="setup-message" class="message" role="status"></p>
+      <button id="start-button" class="primary-button" type="button" disabled>Start exam</button>
+    </section>
+
+    <section id="quiz-screen" class="panel" hidden aria-labelledby="question-heading">
+      <div class="quiz-topline">
+        <span id="progress-text">Question 1 of 24</span>
+        <span id="answered-text">0 answered</span>
+      </div>
+      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+
+      <div class="question-index-box">
+        <div class="index-legend" aria-hidden="true">
+          <span><i class="answered-key"></i>Answered</span>
+          <span><i class="blank-key"></i>Left blank</span>
+          <span><i class="unvisited-key"></i>Not visited</span>
+        </div>
+        <nav id="question-index" class="question-index" aria-label="Go to a question"></nav>
+      </div>
+
+      <article class="question-card">
+        <h2 id="question-heading">Question</h2>
+        <div id="context-area"></div>
+        <div id="question-content"></div>
+      </article>
+
+      <fieldset class="answer-options">
+        <legend>Your answer</legend>
+        <button type="button" data-answer="true">True</button>
+        <button type="button" data-answer="false">False</button>
+        <button type="button" data-answer="blank">Leave blank</button>
+      </fieldset>
+
+      <nav class="quiz-navigation" aria-label="Question navigation">
+        <button id="previous-button" type="button">Previous</button>
+        <button id="next-button" class="primary-button" type="button">Next</button>
+      </nav>
+      <button id="submit-button" class="submit-button" type="button">Submit exam</button>
+    </section>
+
+    <section id="results-screen" class="panel" hidden aria-labelledby="results-title">
+      <h2 id="results-title">Exam result</h2>
+      <p id="score-text" class="score"></p>
+      <div id="result-counts" class="result-counts"></div>
+      <button id="new-exam-button" class="primary-button" type="button">Create another exam</button>
+
+      <h3>Review</h3>
+      <div id="review-list" class="review-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
