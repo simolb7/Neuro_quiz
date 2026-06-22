@@ -274,40 +274,30 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
   overflow-wrap: anywhere;
 }
 
-.review-answers {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-
-.answer-memory-card {
-  min-height: 104px;
+.answer-summary {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 0.2rem;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.7rem;
+  min-height: 54px;
+  margin: 0.7rem 0;
   border: 2px solid #81909c;
-  border-radius: 9px;
-  padding: 0.8rem;
-  text-align: center;
-  background: white;
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
 }
 
-.answer-memory-label {
-  color: #526170;
-  font-size: 0.82rem;
+.answer-summary-label {
+  font-size: 0.78rem;
   font-weight: 750;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
-.answer-memory-card strong { font-size: 1.65rem; line-height: 1.15; }
-.answer-memory-card.your-answer.correct { border-color: #278043; background: #edf8f0; color: #185b2b; }
-.answer-memory-card.your-answer.incorrect { border-color: #b43a2b; background: #fff0ed; color: #8d291d; }
-.answer-memory-card.your-answer.unanswered { border-color: #7a8792; background: #f0f2f4; color: #526170; }
-.answer-memory-card.correct-answer { border-color: #278043; background: #daf1e1; color: #155a29; }
+.answer-summary strong { font-size: 1.25rem; line-height: 1; }
+.answer-summary.correct { border-color: #278043; background: #e4f5e9; color: #185b2b; }
+.answer-summary.incorrect { border-color: #b43a2b; background: #ffe8e4; color: #8d291d; }
+.answer-summary.unanswered { border-color: #7a8792; background: #edf0f2; color: #526170; }
+.answer-correction { margin-left: auto; font-weight: 700; }
 
 [hidden] { display: none !important; }
 
@@ -317,5 +307,5 @@ button:disabled { cursor: not-allowed; opacity: 0.55; }
   .answer-options button { width: 100%; }
   .question-card { min-height: 220px; }
   .question-index { grid-template-columns: repeat(6, minmax(38px, 1fr)); }
-  .review-answers { grid-template-columns: 1fr; }
+  .answer-correction { width: 100%; margin-left: 0; }
 }

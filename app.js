@@ -1,6 +1,7 @@
 "use strict";
 
 const EXAM_SIZE = 24;
+const MAX_VISUAL_QUESTIONS = 2;
 const SCORE_CORRECT = 0.5;
 const SCORE_INCORRECT = -0.25;
 
@@ -134,6 +135,17 @@ function sectionPool(section) {
   return state.allQuestions.filter((question) => question.section === section);
 }
 
+function selectExamQuestions(pool) {
+  const visualQuestions = shuffle(pool.filter(isVisualQuestion)).slice(0, MAX_VISUAL_QUESTIONS);
+  const plainQuestions = shuffle(pool.filter((question) => !isVisualQuestion(question)));
+  const targetSize = Math.min(EXAM_SIZE, pool.length);
+  const selected = [
+    ...visualQuestions,
+    ...plainQuestions.slice(0, Math.max(0, targetSize - visualQuestions.length)),
+  ];
+  return shuffle(selected);
+}
+
 function startExam() {
   const pool = sectionPool(selectedSection());
   if (!pool.length) {
@@ -141,7 +153,7 @@ function startExam() {
     return;
   }
 
-  state.examQuestions = shuffle(pool).slice(0, Math.min(EXAM_SIZE, pool.length));
+  state.examQuestions = selectExamQuestions(pool);
   state.answers = Array(state.examQuestions.length).fill(undefined);
   state.visited = Array(state.examQuestions.length).fill(false);
   state.currentIndex = 0;
@@ -301,29 +313,22 @@ function renderReview() {
 
     appendQuestionDisplay(item, question);
 
-    const answers = document.createElement("div");
-    answers.className = "review-answers";
-
-    const givenAnswerCard = document.createElement("div");
-    givenAnswerCard.className = `answer-memory-card your-answer ${status}`;
+    const answerSummary = document.createElement("div");
+    answerSummary.className = `answer-summary ${status}`;
     const givenLabel = document.createElement("span");
-    givenLabel.className = "answer-memory-label";
+    givenLabel.className = "answer-summary-label";
     givenLabel.textContent = "Your answer";
     const givenValue = document.createElement("strong");
     givenValue.textContent = answerLabel(givenAnswer);
-    givenAnswerCard.append(givenLabel, givenValue);
+    answerSummary.append(givenLabel, givenValue);
 
-    const correctAnswerCard = document.createElement("div");
-    correctAnswerCard.className = "answer-memory-card correct-answer";
-    const correctLabel = document.createElement("span");
-    correctLabel.className = "answer-memory-label";
-    correctLabel.textContent = "Correct answer";
-    const correctValue = document.createElement("strong");
-    correctValue.textContent = answerLabel(question.answer);
-    correctAnswerCard.append(correctLabel, correctValue);
-
-    answers.append(givenAnswerCard, correctAnswerCard);
-    item.append(answers);
+    if (status !== "correct") {
+      const correction = document.createElement("span");
+      correction.className = "answer-correction";
+      correction.textContent = `Correct answer: ${answerLabel(question.answer)}`;
+      answerSummary.append(correction);
+    }
+    item.append(answerSummary);
 
     if (question.explanation) {
       const explanation = document.createElement("p");
