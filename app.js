@@ -24,9 +24,6 @@ const elements = {
   bothStatus: document.querySelector("#both-status"),
   partBOption: document.querySelector("#part-b-option"),
   bothOption: document.querySelector("#both-option"),
-  progressText: document.querySelector("#progress-text"),
-  answeredText: document.querySelector("#answered-text"),
-  progressBar: document.querySelector("#progress-bar"),
   questionIndex: document.querySelector("#question-index"),
   questionHeading: document.querySelector("#question-heading"),
   contextArea: document.querySelector("#context-area"),
@@ -156,12 +153,7 @@ function startExam() {
 function renderQuestion() {
   const question = state.examQuestions[state.currentIndex];
   const total = state.examQuestions.length;
-  const answered = state.answers.filter((answer) => typeof answer === "boolean").length;
-  const blank = state.visited.filter((visited, index) => visited && typeof state.answers[index] !== "boolean").length;
 
-  elements.progressText.textContent = `Question ${state.currentIndex + 1} of ${total}`;
-  elements.answeredText.textContent = `${answered} answered · ${blank} blank`;
-  elements.progressBar.style.width = `${((state.currentIndex + 1) / total) * 100}%`;
   elements.questionHeading.textContent = `Question ${state.currentIndex + 1}`;
   elements.contextArea.replaceChildren();
   elements.questionContent.replaceChildren();
@@ -210,7 +202,11 @@ function goToQuestion(nextIndex) {
 function answerCurrentQuestion(value) {
   state.answers[state.currentIndex] = value === "blank" ? null : value === "true";
   state.visited[state.currentIndex] = true;
-  renderQuestion();
+  if (state.currentIndex < state.examQuestions.length - 1) {
+    goToQuestion(state.currentIndex + 1);
+  } else {
+    renderQuestion();
+  }
 }
 
 function renderQuestionIndex() {
@@ -276,13 +272,57 @@ function renderReview() {
     const item = document.createElement("article");
     item.className = `review-item ${status}`;
 
+    const header = document.createElement("div");
+    header.className = "review-header";
     const heading = document.createElement("h4");
     heading.textContent = `Question ${index + 1} — ${status[0].toUpperCase()}${status.slice(1)}`;
-    item.append(heading);
+    const infoButton = document.createElement("button");
+    const sourceId = `question-source-${index}`;
+    infoButton.type = "button";
+    infoButton.className = "question-info-button";
+    infoButton.textContent = "i";
+    infoButton.setAttribute("aria-label", `Show source information for question ${index + 1}`);
+    infoButton.setAttribute("aria-controls", sourceId);
+    infoButton.setAttribute("aria-expanded", "false");
+    header.append(heading, infoButton);
+    item.append(header);
+
+    const sourceInfo = document.createElement("div");
+    sourceInfo.id = sourceId;
+    sourceInfo.className = "question-source";
+    sourceInfo.hidden = true;
+    sourceInfo.textContent = `Original question ${question.number ?? "unknown"} · Source PDF: ${question.source_pdf || "unknown"}`;
+    infoButton.addEventListener("click", () => {
+      const willOpen = sourceInfo.hidden;
+      sourceInfo.hidden = !willOpen;
+      infoButton.setAttribute("aria-expanded", String(willOpen));
+    });
+    item.append(sourceInfo);
+
     appendQuestionDisplay(item, question);
 
-    const answers = document.createElement("p");
-    answers.textContent = `Your answer: ${answerLabel(givenAnswer)}. Correct answer: ${question.answer_label || answerLabel(question.answer)}.`;
+    const answers = document.createElement("div");
+    answers.className = "review-answers";
+
+    const givenAnswerCard = document.createElement("div");
+    givenAnswerCard.className = `answer-memory-card your-answer ${status}`;
+    const givenLabel = document.createElement("span");
+    givenLabel.className = "answer-memory-label";
+    givenLabel.textContent = "Your answer";
+    const givenValue = document.createElement("strong");
+    givenValue.textContent = answerLabel(givenAnswer);
+    givenAnswerCard.append(givenLabel, givenValue);
+
+    const correctAnswerCard = document.createElement("div");
+    correctAnswerCard.className = "answer-memory-card correct-answer";
+    const correctLabel = document.createElement("span");
+    correctLabel.className = "answer-memory-label";
+    correctLabel.textContent = "Correct answer";
+    const correctValue = document.createElement("strong");
+    correctValue.textContent = answerLabel(question.answer);
+    correctAnswerCard.append(correctLabel, correctValue);
+
+    answers.append(givenAnswerCard, correctAnswerCard);
     item.append(answers);
 
     if (question.explanation) {

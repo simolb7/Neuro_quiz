@@ -39,12 +39,6 @@
     </section>
 
     <section id="quiz-screen" class="panel" hidden aria-labelledby="question-heading">
-      <div class="quiz-topline">
-        <span id="progress-text">Question 1 of 24</span>
-        <span id="answered-text">0 answered</span>
-      </div>
-      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
-
       <div class="question-index-box">
         <div class="index-legend" aria-hidden="true">
           <span><i class="answered-key"></i>Answered</span>
@@ -64,7 +58,7 @@
         <legend>Your answer</legend>
         <button type="button" data-answer="true">True</button>
         <button type="button" data-answer="false">False</button>
-        <button type="button" data-answer="blank">Leave blank</button>
+        <button class="blank-answer" type="button" data-answer="blank">Leave blank</button>
       </fieldset>
 
       <nav class="quiz-navigation" aria-label="Question navigation">
