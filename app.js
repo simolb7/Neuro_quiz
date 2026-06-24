@@ -1,6 +1,6 @@
 "use strict";
 
-const EXAM_SIZE = 24;
+const DEFAULT_EXAM_SIZE = 24;
 const MAX_VISUAL_QUESTIONS = 2;
 const SCORE_CORRECT = 0.5;
 const SCORE_INCORRECT = -0.25;
@@ -25,8 +25,12 @@ const elements = {
   bothStatus: document.querySelector("#both-status"),
   partBOption: document.querySelector("#part-b-option"),
   bothOption: document.querySelector("#both-option"),
+  yearSelect: document.querySelector("#year-select"),
+  questionCount: document.querySelector("#question-count"),
+  questionCountStatus: document.querySelector("#question-count-status"),
   questionIndex: document.querySelector("#question-index"),
   questionHeading: document.querySelector("#question-heading"),
+  questionMetadata: document.querySelector("#question-metadata"),
   contextArea: document.querySelector("#context-area"),
   questionContent: document.querySelector("#question-content"),
   answerButtons: [...document.querySelectorAll("[data-answer]")],
@@ -63,7 +67,7 @@ function deduplicatePlainQuestions(questions) {
 
   return questions.filter((question) => {
     if (isVisualQuestion(question) || referencedIds.has(question.id)) return true;
-    const key = duplicateKey(question.question);
+    const key = `${questionYear(question)}:${duplicateKey(question.question)}`;
     if (seenPlain.has(key)) return false;
     seenPlain.add(key);
     return true;
@@ -135,25 +139,81 @@ function sectionPool(section) {
   return state.allQuestions.filter((question) => question.section === section);
 }
 
-function selectExamQuestions(pool) {
-  const visualQuestions = shuffle(pool.filter(isVisualQuestion)).slice(0, MAX_VISUAL_QUESTIONS);
+function questionYear(question) {
+  return question.source_pdf?.match(/(?:19|20)\d{2}/)?.[0] || "Unknown";
+}
+
+function selectedYear() {
+  return elements.yearSelect.value || "ALL";
+}
+
+function filteredPool(section = selectedSection(), year = selectedYear()) {
+  const pool = sectionPool(section);
+  return year === "ALL" ? pool : pool.filter((question) => questionYear(question) === year);
+}
+
+function populateYearOptions() {
+  const previousYear = selectedYear();
+  const years = [...new Set(sectionPool(selectedSection()).map(questionYear))]
+    .filter((year) => year !== "Unknown")
+    .sort((a, b) => Number(b) - Number(a));
+
+  elements.yearSelect.replaceChildren();
+  const allYears = new Option("All available years", "ALL");
+  elements.yearSelect.append(allYears);
+  for (const year of years) elements.yearSelect.append(new Option(year, year));
+  elements.yearSelect.value = years.includes(previousYear) ? previousYear : "ALL";
+}
+
+function updateQuestionCount() {
+  const available = filteredPool().length;
+  const current = Number.parseInt(elements.questionCount.value, 10);
+  elements.questionCount.max = String(Math.max(1, available));
+  elements.questionCount.disabled = available === 0;
+  elements.questionCount.value = String(
+    Number.isInteger(current) && current >= 1
+      ? Math.min(current, available)
+      : Math.min(DEFAULT_EXAM_SIZE, available)
+  );
+  elements.questionCountStatus.textContent = `${available} questions available for this selection`;
+  elements.startButton.disabled = available === 0;
+}
+
+function updateSetupFilters() {
+  populateYearOptions();
+  elements.yearSelect.disabled = false;
+  updateQuestionCount();
+}
+
+function selectExamQuestions(pool, requestedSize) {
+  const allVisualQuestions = shuffle(pool.filter(isVisualQuestion));
   const plainQuestions = shuffle(pool.filter((question) => !isVisualQuestion(question)));
-  const targetSize = Math.min(EXAM_SIZE, pool.length);
+  const targetSize = Math.min(requestedSize, pool.length);
+  const visualQuestions = allVisualQuestions.slice(0, Math.min(MAX_VISUAL_QUESTIONS, targetSize));
   const selected = [
     ...visualQuestions,
     ...plainQuestions.slice(0, Math.max(0, targetSize - visualQuestions.length)),
   ];
+  if (selected.length < targetSize) {
+    selected.push(...allVisualQuestions.slice(visualQuestions.length, visualQuestions.length + targetSize - selected.length));
+  }
   return shuffle(selected);
 }
 
 function startExam() {
-  const pool = sectionPool(selectedSection());
+  const pool = filteredPool();
   if (!pool.length) {
     elements.setupMessage.textContent = "No questions are available for that selection.";
     return;
   }
 
-  state.examQuestions = selectExamQuestions(pool);
+  const requestedSize = Number.parseInt(elements.questionCount.value, 10);
+  if (!Number.isInteger(requestedSize) || requestedSize < 1 || requestedSize > pool.length) {
+    elements.setupMessage.textContent = `Choose between 1 and ${pool.length} questions.`;
+    return;
+  }
+
+  state.examQuestions = selectExamQuestions(pool, requestedSize);
   state.answers = Array(state.examQuestions.length).fill(undefined);
   state.visited = Array(state.examQuestions.length).fill(false);
   state.currentIndex = 0;
@@ -166,7 +226,9 @@ function renderQuestion() {
   const question = state.examQuestions[state.currentIndex];
   const total = state.examQuestions.length;
 
-  elements.questionHeading.textContent = `Question ${state.currentIndex + 1}`;
+  const year = questionYear(question);
+  elements.questionHeading.textContent = `Question ${state.currentIndex + 1} of ${total}`;
+  elements.questionMetadata.textContent = `Original exam: ${year} · Part ${question.section} · Question ${question.number ?? "unknown"}`;
   elements.contextArea.replaceChildren();
   elements.questionContent.replaceChildren();
 
@@ -365,7 +427,7 @@ async function loadQuestions() {
       elements.bothStatus.textContent = `${partACount + partBCount} available questions`;
     }
 
-    elements.startButton.disabled = partACount === 0;
+    updateSetupFilters();
   } catch (error) {
     elements.setupMessage.textContent = "Could not load questions.json. Start the local web server described in README.md, then open the HTTP address.";
     elements.partAStatus.textContent = "Questions unavailable";
@@ -374,6 +436,13 @@ async function loadQuestions() {
 }
 
 elements.startButton.addEventListener("click", startExam);
+document.querySelectorAll('input[name="section"]').forEach((option) => {
+  option.addEventListener("change", updateSetupFilters);
+});
+elements.yearSelect.addEventListener("change", updateQuestionCount);
+elements.questionCount.addEventListener("input", () => {
+  elements.setupMessage.textContent = "";
+});
 elements.previousButton.addEventListener("click", () => changeQuestion(-1));
 elements.nextButton.addEventListener("click", () => changeQuestion(1));
 elements.submitButton.addEventListener("click", submitExam);

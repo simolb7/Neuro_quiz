@@ -109,6 +109,12 @@ def duplicate_key(text: str) -> str:
     return clean_text(text).casefold().rstrip(" .")
 
 
+def source_year(source_pdf: str) -> str:
+    """Ricava l'anno dell'appello dal nome del PDF."""
+    match = re.search(r"(?:19|20)\d{2}", source_pdf)
+    return match.group(0) if match else "unknown"
+
+
 def deduplicate_plain_questions(questions: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
     """Rimuove i doppioni testuali, ma non domande con immagini/formule/contesto."""
     referenced_ids = {
@@ -122,7 +128,9 @@ def deduplicate_plain_questions(questions: list[dict[str, Any]]) -> tuple[list[d
 
     for question in questions:
         must_preserve = question.get("has_visual_content", False) or question["id"] in referenced_ids
-        key = duplicate_key(question["question"])
+        # Una domanda ripetuta in anni diversi deve rimanere disponibile nel
+        # rispettivo filtro annuale. I doppioni sono rimossi solo nello stesso anno.
+        key = f"{source_year(question['source_pdf'])}:{duplicate_key(question['question'])}"
         if not must_preserve and key in seen_plain:
             removed += 1
             continue

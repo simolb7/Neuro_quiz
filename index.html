@@ -15,7 +15,7 @@
   <main class="page-shell">
     <section id="setup-screen" class="panel" aria-labelledby="setup-title">
       <h2 id="setup-title">Create an exam</h2>
-      <p>Choose which section to use. Each exam contains 24 randomly selected questions.</p>
+      <p>Choose the sections, exam year, and number of questions.</p>
 
       <fieldset class="section-options">
         <legend>Question sections</legend>
@@ -32,6 +32,20 @@
           <span><strong>Both</strong><small id="both-status">Available when Part B is added</small></span>
         </label>
       </fieldset>
+
+      <div class="exam-filters">
+        <label for="year-select">
+          <strong>Exam year</strong>
+          <select id="year-select" disabled>
+            <option value="ALL">All available years</option>
+          </select>
+        </label>
+        <label for="question-count">
+          <strong>Number of questions</strong>
+          <input id="question-count" type="number" min="1" value="24" inputmode="numeric" disabled>
+          <small id="question-count-status">Select a section and year</small>
+        </label>
+      </div>
 
       <p class="scoring">Scoring: <strong>+0.5</strong> correct, <strong>−0.25</strong> incorrect, <strong>0</strong> unanswered.</p>
       <p id="setup-message" class="message" role="status"></p>
@@ -50,6 +64,7 @@
 
       <article class="question-card">
         <h2 id="question-heading">Question</h2>
+        <p id="question-metadata" class="question-metadata"></p>
         <div id="context-area"></div>
         <div id="question-content"></div>
       </article>
