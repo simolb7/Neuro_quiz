@@ -8,7 +8,7 @@ Uso:
   python extract_neuro_questions.py --input esami --output questions.json --assets assets
 
 Note:
-- Estrae solo Section A, senza assumere che contenga esattamente 24 domande.
+- Estrae Section A e Section B in un dataset strutturato per parte.
 - Salva eventuali immagini presenti nella cella della domanda in assets/.
 - Salva anche un crop completo: formule e grafici vettoriali nei PDF non
   sempre sono riconoscibili come immagini separate.
@@ -349,7 +349,7 @@ def iter_pdfs(input_path: Path) -> Iterable[Path]:
     if input_path.is_file() and input_path.suffix.lower() == ".pdf":
         yield input_path
     elif input_path.is_dir():
-        yield from sorted(input_path.glob("*.pdf"))
+        yield from sorted(input_path.rglob("*.pdf"))
 
 
 def main() -> None:
@@ -357,7 +357,12 @@ def main() -> None:
     parser.add_argument("--input", required=True, help="PDF singolo oppure cartella contenente PDF")
     parser.add_argument("--output", default="questions.json", help="File JSON di output")
     parser.add_argument("--assets", default="assets", help="Cartella per immagini estratte")
-    parser.add_argument("--section", default="A", choices=["A", "B"], help="Sezione da estrarre")
+    parser.add_argument(
+        "--section",
+        default="ALL",
+        choices=["A", "B", "ALL"],
+        help="Sezione da estrarre; ALL crea un dataset separato in parts.A e parts.B",
+    )
     parser.add_argument(
         "--max-question",
         type=int,
@@ -372,22 +377,49 @@ def main() -> None:
     assets_dir = Path(args.assets)
     assets_dir.mkdir(parents=True, exist_ok=True)
 
-    all_questions: list[dict[str, Any]] = []
-    for pdf_path in iter_pdfs(input_path):
-        extracted = extract_from_pdf(
-            pdf_path=pdf_path,
-            assets_dir=assets_dir,
-            section=args.section,
-            max_question=args.max_question,
-            save_crops=not args.no_crops,
-        )
-        print(f"{pdf_path.name}: estratte {len(extracted)} domande")
-        all_questions.extend(extracted)
+    sections = ["A", "B"] if args.section == "ALL" else [args.section]
+    parts: dict[str, list[dict[str, Any]]] = {}
+    removed_by_part: dict[str, int] = {}
 
-    all_questions, removed_duplicates = deduplicate_plain_questions(all_questions)
-    output_path.write_text(json.dumps(all_questions, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nDoppioni testuali rimossi: {removed_duplicates}")
-    print(f"Totale: {len(all_questions)} domande")
+    pdfs = list(iter_pdfs(input_path))
+    for section in sections:
+        questions: list[dict[str, Any]] = []
+        print(f"\nSection {section}")
+        for pdf_path in pdfs:
+            extracted = extract_from_pdf(
+                pdf_path=pdf_path,
+                assets_dir=assets_dir,
+                section=section,
+                max_question=args.max_question,
+                save_crops=not args.no_crops,
+            )
+            print(f"{pdf_path.name}: estratte {len(extracted)} domande")
+            questions.extend(extracted)
+
+        parts[section], removed_by_part[section] = deduplicate_plain_questions(questions)
+
+    dataset = {
+        "schema_version": 2,
+        "parts": parts,
+        "stats": {
+            section: {
+                "questions": len(parts[section]),
+                "visual_questions": sum(q["has_visual_content"] for q in parts[section]),
+                "formula_questions": sum(q["has_formula"] for q in parts[section]),
+                "duplicates_removed": removed_by_part[section],
+            }
+            for section in sections
+        },
+    }
+    # Scrittura binaria per mantenere newline LF stabili anche su Windows.
+    output_path.write_bytes((json.dumps(dataset, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
+    print("\nRiepilogo")
+    for section in sections:
+        print(
+            f"Section {section}: {len(parts[section])} domande; "
+            f"{removed_by_part[section]} doppioni testuali rimossi"
+        )
+    print(f"Totale: {sum(len(questions) for questions in parts.values())} domande")
     print(f"JSON salvato in: {output_path}")
     print(f"Immagini salvate in: {assets_dir}")
 

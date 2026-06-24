@@ -41,6 +41,9 @@ Then run:
 py extract_neuro_questions.py --input esami --output questions.json --assets assets
 ```
 
-The extractor keeps Section A, preserves question crops for images and formulas,
-and removes repeated plain-text questions. Questions that rely on visual or
-formula content are not deduplicated.
+The extractor reads both Section A and Section B and writes a structured dataset
+under `parts.A` and `parts.B`. It preserves question crops for images and
+formulas, and removes repeated plain-text questions separately inside each part.
+Questions that rely on visual or formula content are not deduplicated.
+
+To regenerate only one section, add `--section A` or `--section B`.

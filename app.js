@@ -345,9 +345,12 @@ async function loadQuestions() {
     const response = await fetch("questions.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const loaded = await response.json();
-    if (!Array.isArray(loaded)) throw new Error("questions.json is not an array");
+    const questions = Array.isArray(loaded)
+      ? loaded
+      : Object.values(loaded.parts || {}).flat();
+    if (!questions.length) throw new Error("questions.json contains no questions");
 
-    state.allQuestions = deduplicatePlainQuestions(loaded);
+    state.allQuestions = deduplicatePlainQuestions(questions);
     state.questionsById = new Map(state.allQuestions.map((question) => [question.id, question]));
     const partACount = sectionPool("A").length;
     const partBCount = sectionPool("B").length;
