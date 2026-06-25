@@ -200,6 +200,41 @@ function selectExamQuestions(pool, requestedSize) {
   return shuffle(selected);
 }
 
+function splitBothQuestionCount(requestedSize, partACount, partBCount) {
+  let partATarget = Math.min(Math.ceil(requestedSize / 2), partACount);
+  let partBTarget = Math.min(requestedSize - partATarget, partBCount);
+  let remaining = requestedSize - partATarget - partBTarget;
+
+  if (remaining > 0) {
+    const extraA = Math.min(remaining, partACount - partATarget);
+    partATarget += extraA;
+    remaining -= extraA;
+  }
+
+  if (remaining > 0) {
+    const extraB = Math.min(remaining, partBCount - partBTarget);
+    partBTarget += extraB;
+  }
+
+  return { partATarget, partBTarget };
+}
+
+function selectBothExamQuestions(requestedSize) {
+  const year = selectedYear();
+  const partAPool = filteredPool("A", year);
+  const partBPool = filteredPool("B", year);
+  const { partATarget, partBTarget } = splitBothQuestionCount(
+    requestedSize,
+    partAPool.length,
+    partBPool.length
+  );
+
+  return [
+    ...selectExamQuestions(partAPool, partATarget),
+    ...selectExamQuestions(partBPool, partBTarget),
+  ];
+}
+
 function startExam() {
   const pool = filteredPool();
   if (!pool.length) {
@@ -213,7 +248,9 @@ function startExam() {
     return;
   }
 
-  state.examQuestions = selectExamQuestions(pool, requestedSize);
+  state.examQuestions = selectedSection() === "AB"
+    ? selectBothExamQuestions(requestedSize)
+    : selectExamQuestions(pool, requestedSize);
   state.answers = Array(state.examQuestions.length).fill(undefined);
   state.visited = Array(state.examQuestions.length).fill(false);
   state.currentIndex = 0;
@@ -265,22 +302,35 @@ function changeQuestion(offset) {
   goToQuestion(nextIndex);
 }
 
-function goToQuestion(nextIndex) {
+function restoreViewport(scrollX, scrollY) {
+  window.scrollTo({ left: scrollX, top: scrollY, behavior: "auto" });
+  requestAnimationFrame(() => {
+    window.scrollTo({ left: scrollX, top: scrollY, behavior: "auto" });
+  });
+}
+
+function goToQuestion(nextIndex, options = {}) {
+  const { scrollToTop = true } = options;
   if (nextIndex === state.currentIndex) return;
   state.visited[state.currentIndex] = true;
   state.currentIndex = nextIndex;
   renderQuestion();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (scrollToTop) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 }
 
 function answerCurrentQuestion(value) {
+  const previousScrollX = window.scrollX;
+  const previousScrollY = window.scrollY;
   state.answers[state.currentIndex] = value === "blank" ? null : value === "true";
   state.visited[state.currentIndex] = true;
   if (state.currentIndex < state.examQuestions.length - 1) {
-    goToQuestion(state.currentIndex + 1);
+    goToQuestion(state.currentIndex + 1, { scrollToTop: false });
   } else {
     renderQuestion();
   }
+  restoreViewport(previousScrollX, previousScrollY);
 }
 
 function renderQuestionIndex() {
