@@ -40,6 +40,38 @@ def clean_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+# Correzioni esclusivamente ortografiche osservate nei testi sorgente/PDF.
+# Non modificano lessico, grammatica o significato delle domande.
+QUESTION_TYPO_CORRECTIONS = {
+    "actoi n": "action",
+    "functoi n": "function",
+    "retni al": "retinal",
+    "actviity": "activity",
+    "afefcted": "affected",
+    "afefct": "affect",
+    "atetnding": "attending",
+    "cortcial": "cortical",
+    "difefrent": "different",
+    "efefctively": "effectively",
+    "efefct": "effect",
+    "fgiure": "figure",
+    "friing": "firing",
+    "magnitue": "magnitude",
+    "negatvie": "negative",
+    "ofetn": "often",
+    "patetrn": "pattern",
+    "Penfeild": "Penfield",
+    "positvie": "positive",
+}
+
+
+def correct_question_typos(text: str) -> str:
+    """Corregge solo refusi verificati, senza riformulare il testo."""
+    for typo, correction in QUESTION_TYPO_CORRECTIONS.items():
+        text = re.sub(rf"\b{re.escape(typo)}\b", correction, text)
+    return text
+
+
 def rect_contains_word(rect: fitz.Rect, word: tuple) -> bool:
     x0, y0, x1, y1 = word[:4]
     cx = (x0 + x1) / 2
@@ -272,7 +304,7 @@ def extract_from_pdf(
                         "source_pdf": pdf_path.name,
                         "section": wanted,
                         "number": qnum,
-                        "question": clean_text(" ".join(current["questions"])),
+                        "question": correct_question_typos(clean_text(" ".join(current["questions"]))),
                         "answer": answer,
                         "answer_label": "T" if answer else "F",
                         "explanation": clean_text(" ".join(current["explanations"])),
