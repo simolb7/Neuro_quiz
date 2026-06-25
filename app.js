@@ -229,10 +229,9 @@ function selectBothExamQuestions(requestedSize) {
     partBPool.length
   );
 
-  return [
-    ...selectExamQuestions(partAPool, partATarget),
-    ...selectExamQuestions(partBPool, partBTarget),
-  ];
+  const partAQuestions = selectExamQuestions(partAPool, partATarget);
+  const partBQuestions = selectExamQuestions(partBPool, partBTarget);
+  return [...partAQuestions, ...partBQuestions];
 }
 
 function startExam() {
