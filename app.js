@@ -61,6 +61,20 @@ function duplicateKey(text) {
   return text.toLocaleLowerCase().replace(/\s+/g, " ").trim().replace(/[ .]+$/g, "");
 }
 
+function uniqueQuestionKey(question) {
+  return duplicateKey(question.question || question.id || "");
+}
+
+function uniqueQuestions(questions, existingKeys = new Set()) {
+  const seen = new Set(existingKeys);
+  return questions.filter((question) => {
+    const key = uniqueQuestionKey(question);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function deduplicatePlainQuestions(questions) {
   const referencedIds = new Set(questions.flatMap((question) => question.context_question_ids || []));
   const seenPlain = new Set();
@@ -152,6 +166,10 @@ function filteredPool(section = selectedSection(), year = selectedYear()) {
   return year === "ALL" ? pool : pool.filter((question) => questionYear(question) === year);
 }
 
+function availablePool(section = selectedSection(), year = selectedYear()) {
+  return uniqueQuestions(filteredPool(section, year));
+}
+
 function populateYearOptions() {
   const previousYear = selectedYear();
   const years = [...new Set(sectionPool(selectedSection()).map(questionYear))]
@@ -166,7 +184,7 @@ function populateYearOptions() {
 }
 
 function updateQuestionCount() {
-  const available = filteredPool().length;
+  const available = availablePool().length;
   const current = Number.parseInt(elements.questionCount.value, 10);
   elements.questionCount.max = String(Math.max(1, available));
   elements.questionCount.disabled = available === 0;
@@ -186,9 +204,10 @@ function updateSetupFilters() {
 }
 
 function selectExamQuestions(pool, requestedSize) {
-  const allVisualQuestions = shuffle(pool.filter(isVisualQuestion));
-  const plainQuestions = shuffle(pool.filter((question) => !isVisualQuestion(question)));
-  const targetSize = Math.min(requestedSize, pool.length);
+  const uniquePool = uniqueQuestions(pool);
+  const allVisualQuestions = shuffle(uniquePool.filter(isVisualQuestion));
+  const plainQuestions = shuffle(uniquePool.filter((question) => !isVisualQuestion(question)));
+  const targetSize = Math.min(requestedSize, uniquePool.length);
   const visualQuestions = allVisualQuestions.slice(0, Math.min(MAX_VISUAL_QUESTIONS, targetSize));
   const selected = [
     ...visualQuestions,
@@ -221,21 +240,43 @@ function splitBothQuestionCount(requestedSize, partACount, partBCount) {
 
 function selectBothExamQuestions(requestedSize) {
   const year = selectedYear();
-  const partAPool = filteredPool("A", year);
-  const partBPool = filteredPool("B", year);
-  const { partATarget, partBTarget } = splitBothQuestionCount(
+  const partAPool = availablePool("A", year);
+  const partBPool = availablePool("B", year);
+  const { partATarget } = splitBothQuestionCount(
     requestedSize,
     partAPool.length,
     partBPool.length
   );
 
-  const partAQuestions = selectExamQuestions(partAPool, partATarget);
-  const partBQuestions = selectExamQuestions(partBPool, partBTarget);
+  let partAQuestions = selectExamQuestions(partAPool, partATarget);
+  const usedPartAKeys = new Set(partAQuestions.map(uniqueQuestionKey));
+  let partBPoolWithoutA = uniqueQuestions(partBPool, usedPartAKeys);
+  let partBQuestions = selectExamQuestions(partBPoolWithoutA, requestedSize - partAQuestions.length);
+
+  let usedKeys = new Set([...partAQuestions, ...partBQuestions].map(uniqueQuestionKey));
+  if (partAQuestions.length + partBQuestions.length < requestedSize) {
+    const extraPartAQuestions = selectExamQuestions(
+      uniqueQuestions(partAPool, usedKeys),
+      requestedSize - partAQuestions.length - partBQuestions.length
+    );
+    partAQuestions = [...partAQuestions, ...extraPartAQuestions];
+  }
+
+  usedKeys = new Set([...partAQuestions, ...partBQuestions].map(uniqueQuestionKey));
+  if (partAQuestions.length + partBQuestions.length < requestedSize) {
+    partBPoolWithoutA = uniqueQuestions(partBPool, usedKeys);
+    const extraPartBQuestions = selectExamQuestions(
+      partBPoolWithoutA,
+      requestedSize - partAQuestions.length - partBQuestions.length
+    );
+    partBQuestions = [...partBQuestions, ...extraPartBQuestions];
+  }
+
   return [...partAQuestions, ...partBQuestions];
 }
 
 function startExam() {
-  const pool = filteredPool();
+  const pool = availablePool();
   if (!pool.length) {
     elements.setupMessage.textContent = "No questions are available for that selection.";
     return;
