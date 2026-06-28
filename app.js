@@ -167,7 +167,7 @@ function selectedSection() {
 }
 
 function rareQuestionPool(year = "ALL") {
-  const rareQuestions = state.allQuestions.filter(isRareQuestion);
+  const rareQuestions = state.allQuestions.filter((question) => isRareQuestion(question) && !isVisualQuestion(question));
   const yearFiltered = year === "ALL"
     ? rareQuestions
     : rareQuestions.filter((question) => questionYear(question) === year);
