@@ -2,12 +2,15 @@
 
 const DEFAULT_EXAM_SIZE = 24;
 const MAX_VISUAL_QUESTIONS = 2;
+const RARE_OCCURRENCE_LIMIT = 3;
 const SCORE_CORRECT = 0.5;
 const SCORE_INCORRECT = -0.25;
 
 const state = {
   allQuestions: [],
   questionsById: new Map(),
+  occurrenceCounts: new Map(),
+  hasOccurrenceReport: false,
   examQuestions: [],
   answers: [],
   visited: [],
@@ -25,6 +28,8 @@ const elements = {
   bothStatus: document.querySelector("#both-status"),
   partBOption: document.querySelector("#part-b-option"),
   bothOption: document.querySelector("#both-option"),
+  rareStatus: document.querySelector("#rare-status"),
+  rareOption: document.querySelector("#rare-option"),
   yearSelect: document.querySelector("#year-select"),
   questionCount: document.querySelector("#question-count"),
   questionCountStatus: document.querySelector("#question-count-status"),
@@ -63,6 +68,19 @@ function duplicateKey(text) {
 
 function uniqueQuestionKey(question) {
   return duplicateKey(question.question || question.id || "");
+}
+
+function occurrenceKey(section, text) {
+  return `${section}:${duplicateKey(text)}`;
+}
+
+function questionOccurrenceCount(question) {
+  return question.occurrence_count ?? null;
+}
+
+function isRareQuestion(question) {
+  const count = questionOccurrenceCount(question);
+  return Number.isInteger(count) && count <= RARE_OCCURRENCE_LIMIT;
 }
 
 function uniqueQuestions(questions, existingKeys = new Set()) {
@@ -148,7 +166,16 @@ function selectedSection() {
   return document.querySelector('input[name="section"]:checked')?.value || "A";
 }
 
+function rareQuestionPool(year = "ALL") {
+  const rareQuestions = state.allQuestions.filter(isRareQuestion);
+  const yearFiltered = year === "ALL"
+    ? rareQuestions
+    : rareQuestions.filter((question) => questionYear(question) === year);
+  return uniqueQuestions(yearFiltered);
+}
+
 function sectionPool(section) {
+  if (section === "RARE") return rareQuestionPool();
   if (section === "AB") return state.allQuestions.filter((question) => ["A", "B"].includes(question.section));
   return state.allQuestions.filter((question) => question.section === section);
 }
@@ -162,6 +189,7 @@ function selectedYear() {
 }
 
 function filteredPool(section = selectedSection(), year = selectedYear()) {
+  if (section === "RARE") return rareQuestionPool(year);
   const pool = sectionPool(section);
   return year === "ALL" ? pool : pool.filter((question) => questionYear(question) === year);
 }
@@ -305,7 +333,11 @@ function renderQuestion() {
 
   const year = questionYear(question);
   elements.questionHeading.textContent = `Question ${state.currentIndex + 1} of ${total}`;
-  elements.questionMetadata.textContent = `Original exam: ${year} · Part ${question.section} · Question ${question.number ?? "unknown"}`;
+  const occurrenceCount = questionOccurrenceCount(question);
+  const occurrenceLabel = Number.isInteger(occurrenceCount)
+    ? ` · Seen ${occurrenceCount} time${occurrenceCount === 1 ? "" : "s"}`
+    : "";
+  elements.questionMetadata.textContent = `Original exam: ${year} · Part ${question.section} · Question ${question.number ?? "unknown"}${occurrenceLabel}`;
   elements.contextArea.replaceChildren();
   elements.questionContent.replaceChildren();
 
@@ -455,7 +487,11 @@ function renderReview() {
     sourceInfo.id = sourceId;
     sourceInfo.className = "question-source";
     sourceInfo.hidden = true;
-    sourceInfo.textContent = `Original question ${question.number ?? "unknown"} · Source PDF: ${question.source_pdf || "unknown"}`;
+    const occurrenceCount = questionOccurrenceCount(question);
+    const occurrenceLabel = Number.isInteger(occurrenceCount)
+      ? ` · Seen ${occurrenceCount} time${occurrenceCount === 1 ? "" : "s"} in the source exams`
+      : "";
+    sourceInfo.textContent = `Original question ${question.number ?? "unknown"} · Source PDF: ${question.source_pdf || "unknown"}${occurrenceLabel}`;
     infoButton.addEventListener("click", () => {
       const willOpen = sourceInfo.hidden;
       sourceInfo.hidden = !willOpen;
@@ -492,16 +528,62 @@ function renderReview() {
   });
 }
 
+async function loadOccurrenceCounts() {
+  try {
+    const response = await fetch("question_occurrences.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const rows = await response.json();
+    if (!Array.isArray(rows)) throw new Error("question_occurrences.json is not a list");
+
+    state.occurrenceCounts = new Map(
+      rows.map((row) => [
+        occurrenceKey(row.part, row.question),
+        Number.parseInt(row.occurrences, 10),
+      ])
+    );
+    state.hasOccurrenceReport = state.occurrenceCounts.size > 0;
+  } catch (error) {
+    state.occurrenceCounts = new Map();
+    state.hasOccurrenceReport = false;
+    console.warn("Could not load question_occurrences.json", error);
+  }
+}
+
+function applyOccurrenceCounts(questions) {
+  return questions.map((question) => ({
+    ...question,
+    occurrence_count: state.occurrenceCounts.get(occurrenceKey(question.section, question.question)) ?? null,
+  }));
+}
+
+function updateRareOptionStatus() {
+  if (!state.hasOccurrenceReport) {
+    elements.rareOption.disabled = true;
+    elements.rareOption.closest("label").classList.add("unavailable");
+    elements.rareStatus.textContent = "Run the occurrence report first";
+    return;
+  }
+
+  const rareCount = sectionPool("RARE").length;
+  elements.rareOption.disabled = rareCount === 0;
+  elements.rareOption.closest("label").classList.toggle("unavailable", rareCount === 0);
+  elements.rareStatus.textContent = rareCount > 0
+    ? `${rareCount} questions seen ${RARE_OCCURRENCE_LIMIT} times or less`
+    : "No rare questions found";
+}
+
 async function loadQuestions() {
   try {
+    await loadOccurrenceCounts();
     const response = await fetch("questions.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const loaded = await response.json();
-    const questions = Array.isArray(loaded)
+    const loadedQuestions = Array.isArray(loaded)
       ? loaded
       : Object.values(loaded.parts || {}).flat();
-    if (!questions.length) throw new Error("questions.json contains no questions");
+    if (!loadedQuestions.length) throw new Error("questions.json contains no questions");
 
+    const questions = applyOccurrenceCounts(loadedQuestions);
     state.allQuestions = deduplicatePlainQuestions(questions);
     state.questionsById = new Map(state.allQuestions.map((question) => [question.id, question]));
     const partACount = sectionPool("A").length;
@@ -516,6 +598,7 @@ async function loadQuestions() {
       elements.partBStatus.textContent = `${partBCount} available questions`;
       elements.bothStatus.textContent = `${partACount + partBCount} available questions`;
     }
+    updateRareOptionStatus();
 
     updateSetupFilters();
   } catch (error) {

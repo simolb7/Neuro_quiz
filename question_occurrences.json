@@ -1,0 +1,3075 @@
+[
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "A Density equal to 1.3 is a physiologically plausible result.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "A Divisibility equal to 0 is a plausible result.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "A hyperpolarization with respect to the resting membrane potential can cause the generation of an action potential.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "A multivariate approach to the estimation of brain networks can always prevent the occurrence of the common source problem.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "An IPSP consists of a depolarization of the post- synaptic cell membrane.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Anatomical connectivity can be estimated noninvasively.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Anatomical connectivity can change over large time scales.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Causality in the sense of physical influence can be tested by perturbing the brain activity.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Divisibility and Modularity are measures of segregation.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given an ion family with negative valence, if at a given temperature T its equilibrium potential is equal to -90 mV and the membrane potential is equal to -70 mV, the ions net current will be directed from the outside of the cell toward the inside.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given that at a certain temperature T the Cl-equilibrium potential is equal to -80 mV, and the membrane potential is equal to -70 mV, the Cl- net current will be a depolarizing one.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the distribution of firing rates in the figure: The discriminability d’ when the coherence=1.6 is higher than when it’s =12.8",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the following tuning curve, showing the spike trains obtained - for different trials - from a neuron of the primary motor cortex in correspondence to an arm movement (panel A), and the firing rate f of the same neuron as a function of the angle s of the same movement direction (panel B): The maximum neural response is obtained for a movement direction with an angle of 350 degrees.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the Granger Index G between two time series x and xy y, a negative value of G means an inverse precedence x\u0000 y between the two time series.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the Granger Index G between two time series x and y, a xy negative value of G means an inverse precedence between xà y the two time series.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-09_Part1_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the Granger Index G between two time series x xy and y, a negative value of G means an inverse x🡪 y precedence between the two time series.",
+    "answers_seen": "F:1",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given the ROC curves in the figure, describing a threshold classification between two conditions (stimuli) at different levels of coherence of the stimulation (different curves): The best curve is the one closer to the diagonal.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Given two time series x and y, the Granger Causality Index G ∈[-∞, ∞]. x→y",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "If a time series is not Fourier-transformable, it is impossible to compute its power spectral density.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "If at a certain temperature T the equilibrium potential for a given ion family is equal to +30 mV, and the membrane potential is equal to -70 mV, the ion net current will be a hyperpolarizing one.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In a cortical pyramidal neuron, thalamo-cortical synapses are located in the apical portion of its dendritic tree.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In a directed graph, all indices are doubled with respect to a corresponding undirected one (i.e., the graph where all the directions have been removed).",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In a graph, the Density ∈[0, 1].",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In a graph, when no path links two nodes, the distance between them is infinite.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In an excitatory synapse, the post-synaptic membrane current is always hyperpolarizing.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In an inhibitory synapse, the membrane current is always hyperpolarizing.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 10): from the curve I can conclude that this neuron is tuned to be active in correspondence to a given movement direction.",
+    "answers_seen": "T:1",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 10): from the curve I can conclude that this neuron is tuned to be more active in correspondence to a specific movement direction.",
+    "answers_seen": "T:1",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 13): the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
+    "answers_seen": "T:1",
+    "sources": "2.P1.odd Solutions Jul2022.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 14), among the two distributions (r or r), r is the one + - + affected by the coherence level",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 20): from the curve I can conclude that this neuron is tuned to be active in correspondence to a given movement direction.",
+    "answers_seen": "T:1",
+    "sources": "2.P1.odd Solutions Jul2022.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure (question 20): the firing rate f in panel B was computed as the average of the neural response function across trials.",
+    "answers_seen": "T:1",
+    "sources": "2.P1.odd Solutions Jul2022.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure, among the two distributions (r or r), r is the one affected by the coherence level + - +",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In reference to the previous figure: from the curve, I can conclude that this neuron is tuned to be more active in correspondence to a specific movement direction.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In terms of Local Efficiency, a Small World Network is closer to a Regular than to a Random Network.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In the Nernst equation for the electrochemical equilibrium there is a term referred to diffusional forces and a term referred to electrical forces.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In the Nernst equation, the ion valence can be either positive or negative",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In the Nernst equation, the temperature is expressed in Celsius degrees",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "In the primary motor cortex (Penfield homunculus) the extension of the cortical region which controls a specific body region is proportional to that body region's volume.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Local Efficiency is a local measure.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Local Field Potentials are noninvasive correlates of brain activity.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Long-term synaptic plasticity involves structural changes in the post-synaptic membrane.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Modularity values belong to the interval [0,1]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Multivariate approaches are more accurate because they use the information from all the time series involved in a unique model.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Ordinary Coherence is directional.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Partial Directed Coherence is directional.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Radially symmetric neurons produce a closed field and therefore do not significantly contribute to scalp EEG.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Temporal and spatial summations can occur simultaneously.",
+    "answers_seen": "T:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The 4 main ion families having a role in the neuron functioning are Na+, K+, Br- and Ca++",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The differences between the distribution of isi in real data and in simulated data produced by a Poisson spike generator are due to the refractory periods",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The firing rate of the pre-synaptic neuron influences the temporal summation of the PSPs in the post-synaptic cell. The primary visual area is located in the cortex.",
+    "answers_seen": "T:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The following factors all affect the amplitude of EEG signals: the neurons’ orientation, the synchronicity of the neural activity, the distance between the neurons and the electrodes, the closed/open field generated by the neurons.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The frontal lobe houses the primary motor function.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The Global Efficiency is normalized to the number N of nodes in the graph.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The hidden source problem can be completely solved by using multivariate approaches.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The inactivation of the voltage-gated Na+ channel is responsible for the absolute refractory period.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The main contributors to the amplitude of EEG are the post-synaptic potentials.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The motor homunculus is located in the frontal lobe.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The normalized Partial Directed Coherence ∈ [0, +∞]",
+    "answers_seen": "F:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The normalized Partial Directed Coherence ∈[0, ∞]",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The only way to estimate Causality in the sense of temporal precedence is to perturb the brain activity.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The Ordinary Coherence is defined in the time domain.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The post-synaptic potentials are the electrical variation of the membrane potential that mainly contributes to EEG",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The primary visual region, the primary auditory region and both Penfield Homunculi are all cortical areas.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The propagation of the action potential in myelinated axons is faster than the one in unmyelinated axons",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The propagation speed for an action potential in an unmyelinated axon is slower than in a myelinated one",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The resting membrane potential for the neural cell is equal to -90",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The resting membrane potential for the neural cell is typically around +70 mV.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The resting membrane potential is entirely due to the sum of the effects of diffusional forces and electrical forces acting on the ions.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The resting membrane potential is entirely due to the sum of the effects of the electrical forces acting on the ions and of the ion pumps.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The short-term synaptic plasticity can involve a structural change in the post-synaptic membrane.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The sodium-potassium pump is a passive transportation mechanism.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The spatial and temporal summations of post-synaptic potentials are mutually exclusive.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The Spectral Matrix computed for any given pair of time series is always symmetrical.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The temporal summation of PSPs does not depend on the temporal distance between subsequent action potentials in the presynaptic cell.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The Thalamus, the Brainstem and the Penfield Homunculus are all subcortical areas.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The tuning curve in the figure shows (panel B) the firing rate f of a neuron in the primary visual cortex as a function of the retinal disparity angle s (panel - - + + A). From the figure, we can infer that the neuron responds mainly to positive s (far-tuned neuron).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The tuning curve in the figure shows (panel B) the firing rate f of a neuron in the primary visual cortex as a function of the retinal disparity angle s (panel A). - - + + From the figure, we can infer that the neuron responds mainly to negative s (closed-tuned neuron).",
+    "answers_seen": "F:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The tuning curve in the figure shows (panel B) the firing rate f of a neuron in the primary visual cortex as a function of the retinal disparity angle s (panel A). - - + + From the figure, we can infer that the neuron responds only to positive s (far-tuned neuron)",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The tuning curve in the figure shows (panel B) the firing rate f of a neuron in the primary visual cortex as a function of the retinal disparity angle s (panel A). From the figure, we can infer that the neuron responds mainly to positive s (far-tuned neuron).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The visual function is located in the brain frontal lobe The thalamus is a cortical region",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The voltage-gated K+ channel is responsible for the absolute refractory period.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The voltage-gated K+ channel is responsible for the relative refractory period.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The voltage-gated Na+ channel is responsible for the depolarization phase of the action potential.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The voltage-gated Na+ channel opening is responsible for the depolarization phase of the action potential.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "The voltage-gated Na+ channel opening is responsible for the repolarization phase of the action potential.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "This is an example of the hidden source effect:",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "To measure the membrane potential over the soma of a neural cell in vitro, the correct procedure is to record extracellular measures.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Undirected graphs are associated with symmetrical adjacency matrices.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "Using Partial Directed Coherence completely solves the problem of the hidden (common) source",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "When temporal summation occurs, spatial summation cannot.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 1,
+    "question": "When we have a limited amount of data, the Partial Directed Coherence (PDC) is the most accurate estimator of causality in the statistical sense.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "A Density equal to 1.3 is a plausible result.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q23; NENG_2026-06_part1-odd_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Axonal sprouting and pruning are part of the mechanisms behind brain plasticity.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q6; NENG_2024-03_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Because action potentials are all-or-none, increasing the stimulus amplitude above threshold does not affect the peak voltage.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q22; NENG_2026-06_part1-odd_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Each brain lobe contains several Brodmann areas.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q5; NENG_2024-03_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the firing rate distribution in the figure, obtained for a neuron of the primary visual cortex in response to the motion direction of dots on the screen in two possible directions (+ and -) and with different levels of coherence between the dots: Discriminability d’ is higher when the coherence level is equal to 0.8% than when it is equal to 6.4%.",
+    "answers_seen": "F:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q14; NENG_2024-03_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the firing rate distribution in the figure, obtained for a neuron of the primary visual cortex in response to the motion direction of dots on the screen in two possible directions (+ and -) and with different levels of coherence between the dots: discriminability d’ is higher when the coherence level is equal to 3.2% than when it is equal to 12.8%.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q10; NENG_2026-06_part1-odd_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the firing rate distribution in the figure, obtained for a neuron of the primary visual cortex in response to the motion direction of dots on the screen in two possible directions (+ and -) and with different levels of coherence between the dots: Discriminability d’ is higher when the coherence level is equal to 6.4% than when it is equal to 12.8%.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q14; NENG_2024-10_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the following tuning curve, showing the firing rate f of a neuron in the primary visual cortex (panel B) as a function of the retinal disparity angle s (panel A): - - + + From the figure, we can infer that the neuron responds mainly to negative s (closed-tuned neuron).",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q11; NENG_2024-10_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the following tuning curve, showing the firing rate f of a neuron in the primary visual cortex (panel B) as a function of the retinal disparity angle s (panel A): from the figure, we can infer that the neuron responds mainly to positive s (far-tuned neuron).",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q2; NENG_2026-06_part1-odd_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the Granger Index G between two time series x xy and y, a negative value of G means an inverse xà y precedence between the two time series.",
+    "answers_seen": "F:2",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q17; 2.P1.odd Solutions Jul2022.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Given the Granger Index G between two time series xy x and y, a negative value of G means an inverse x\u0000 y precedence between the two time series.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q17; NENG_2025-09_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "If at a certain temperature T the equilibrium potential for a given ion family is equal to -90 mV, and the membrane potential is equal to -70 mV, the ion net current will be a hyperpolarizing one.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q24; NENG_2026-06_part1-odd_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "If C (f)is the Ordinary Coherence between x and y, xy C xy(f)=C yx(f) .",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q16; NENG_2025-04_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In a Poisson spike generator, the program generates a fixed threshold and, at each time step, compares the variable 𝑟𝑒𝑠𝑡Δ𝑡 with the fixed threshold.",
+    "answers_seen": "F:2",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q13; 2.P1.odd Solutions Jul2022.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure (question 14): the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q17; 2.P1.even Solutions Jul2022.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure, among the two distributions (r , preferred direction, or + r , opposite direction), r is the one affected - + by the coherence level",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q11; NENG_2026-06_part1-odd_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure: from the curve I can conclude that this neuron is tuned to be more active in correspondence to a specific movement direction.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q14; NENG_2025-04_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure: the Area Under the Curve (AUC) for each level of coherence is proportional to the discriminability of the two conditions.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q15; NENG_2024-09_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure: the distribution (-) is less affected by the coherence level than the distribution (+).",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q15; NENG_2024-03_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure: the firing rate f in panel B was computed as the average of the neural response function across trials.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q15; NENG_2025-04_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "In reference to the previous figure: the histogram obtained for the preferred direction (+) is less affected by the coherence level than the distribution (-).",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q15; NENG_2024-10_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Local Efficiency is a global measure of the network.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q12; NENG_2026-06_part1-odd_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Ordinary Coherence, being a pairwise method, cannot mitigate the problem of the common source.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q21; NENG_2026-06_part1-odd_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Scalp EEG amplitude is dominated by synchronous PSPs from many aligned pyramidal neurons; action potentials are usually too brief to sum effectively to the scalp.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q16; NENG_2026-06_part1-odd_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Scalp EEG has excellent spatial resolution because the skull prevents signals from spreading across the head.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q15; NENG_2026-06_part1-odd_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Temporal summation cannot trigger an action potential; only spatial summation can bring the membrane potential to threshold.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q14; NENG_2026-06_part1-odd_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The distance between the neurons and the electrodes does not affect the amplitude of the EEG signals they produce.",
+    "answers_seen": "F:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q8; NENG_2024-03_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The firing rate influences the temporal summation of the PSPs.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q4; NENG_2024-03_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The following factors all affect the amplitude of EEG signals: the neurons’ spatial orientation, the synchronicity of the neural activity, the distance between the neurons and the electrodes, the closed/open field generated by the neurons.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q8; NENG_2026-06_part1-odd_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The Granger Causality Index G is a multivariate xy estimator of brain connectivity.",
+    "answers_seen": "F:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q17; NENG_2024-03_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The neuronal resting membrane potential is given by the sum of diffusional forces, electrical forces, and ion pumps activity",
+    "answers_seen": "T:2",
+    "sources": "3.P1 Solutions sep2022.pdf#q2; NENG_2024-09_Part1_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The normalized PDC (f) between two time series x and xy y ∈[0, ∞].",
+    "answers_seen": "F:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q18; NENG_2024-03_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The occipital lobe is organized in a somatotopic way.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q13; NENG_2026-06_part1-odd_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The Ordinary Coherence between two time series x and y is a function of the frequency.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q19; NENG_2024-03_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The part of the pyramidal neuron that acts as a current dipole is the dendritic tree.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q3; NENG_2024-03_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The red arrow in the figure can be due to a common source effect:",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q19; NENG_2026-06_part1-odd_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The short-term synaptic plasticity involves a structural change in the post-synaptic membrane.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-09_Part1_solutions.pdf#q8; NENG_2025-04_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The synchronicity of the neural activity in a region affects the amplitude of the EEG signals it produces.",
+    "answers_seen": "T:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q7; NENG_2024-03_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "The tuning curve in the figure shows (panel A) the spike trains obtained - for different trials - from a neuron of the primary motor cortex in correspondence to an arm movement, and (panel B) the firing rate f of the same neuron as a function of the angle s of the same movement direction. When the firing rate is 55 Hz, I can infer which movement direction produced that response.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q13; NENG_2025-04_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "To record in vivo measures of the membrane potential over the axon of a neural cell, you will use intracellular recordings.",
+    "answers_seen": "F:2",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q9; NENG_2024-03_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "We need to measure the amplitude and duration of an action potential each time it occurs to understand the cell behavior.",
+    "answers_seen": "F:2",
+    "sources": "3.P1 Solutions sep2022.pdf#q1; NENG_2024-09_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 2,
+    "question": "Wiener-Granger Causality is based on the autoregressive modeling of time series.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q17; NENG_2025-09_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "A Modularity equal to -0.3 is a plausible result.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q21; NENG_2026-06_part1-even_solutions.pdf#q5; NENG_2026-06_part1-odd_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "A necessary condition for a linear autoregressive (AR) model is that the time series to be modeled is wide-sense stationary.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q18; NENG_2024-10_Part1_solutions.pdf#q18; NENG_2025-07_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "A negative value of the Granger Index G should x→y never occur if the two AR models that are compared to compute the index are correct.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q21; NENG_2024-10_Part1_solutions.pdf#q21; NENG_2025-07_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "A regular network has fewer nodes than a random network.",
+    "answers_seen": "F:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q22; NENG_2024-03_Part1_solutions.pdf#q22; NENG_2024-07_Part1-even_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "A Small-World Network properties are equidistant from those of Regular and Random Networks.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q24; NENG_2026-06_part1-even_solutions.pdf#q1; NENG_2026-06_part1-odd_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Deep (subcortical) regions of the brain produce a less blurred scalp EEG than cortical ones.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q10; NENG_2024-10_Part1_solutions.pdf#q10; NENG_2025-07_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Divisibility and Modularity are measures of integration of a network.",
+    "answers_seen": "F:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q25; NENG_2024-03_Part1_solutions.pdf#q25; NENG_2024-07_Part1-even_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Given that at a certain temperature T the Cl-equilibrium potential is equal to -80 mV, and the membrane potential is equal to -70 mV, the Cl- net current will be directed from the inside of the cell toward the outside.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q2; NENG_2024-10_Part1_solutions.pdf#q2; NENG_2025-07_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Given the following tuning curve, reporting the firing rate of a neuron of the primary visual cortex (B) in response to the orientation angle of a visual stimulus (A): If the measured firing rate is 20 Hz, I can infer a univocal orientation angle that produced that response.",
+    "answers_seen": "F:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q11; NENG_2024-03_Part1_solutions.pdf#q11; NENG_2024-09_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Given the Granger Index Gxy between two time series x and y, a negative value of Gx->y means an inverse precedence between the two time",
+    "answers_seen": "F:3",
+    "sources": "2.P1.NewModalities_Solutions_Jul2023.pdf#q23; NENG_2024-02_Part1_solutions.pdf#q23; NENG_2025-02_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "If a time series is not Fourier-transformable, it is impossible to compute its PSD.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q17; NENG_2024-10_Part1_solutions.pdf#q17; NENG_2025-07_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "If a time series is not Fourier-transformable, it is still possible to compute its power spectral density by means of the Wiener-Khinchin Theorem.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q13; NENG_2026-06_part1-even_solutions.pdf#q18; NENG_2026-06_part1-odd_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "If C (f)is the Ordinary Coherence between x and y, xy C (f)=C (f) xy yx .",
+    "answers_seen": "T:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q19; 2.P1.even Solutions Jul2022.pdf#q16; 2.P1.odd Solutions Jul2022.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In chemical synapses, when a neurotransmitter opens the K+ gated channels, the resulting PSP is an inhibitory one.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q3; NENG_2024-10_Part1_solutions.pdf#q3; NENG_2025-07_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In reference to the previous figure (question 10): the firing rate f in panel B was computed as the average of the neural response function across trials.",
+    "answers_seen": "T:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q15; 2.P1.even Solutions Jul2022.pdf#q12; NENG_2024-06_Part1-odd_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In reference to the previous figure: by considering only the true positives and false positives, and neglecting the true negatives and false negatives, we miss part of the results of the classification.",
+    "answers_seen": "F:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q18; NENG_2024-06_Part1-odd_solutions.pdf#q16; NENG_2024-09_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In reference to the previous figure: from the curve I can conclude that there is a preferred stimulus orientation for which this neuron is designed to respond.",
+    "answers_seen": "T:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q12; NENG_2024-03_Part1_solutions.pdf#q12; NENG_2024-09_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In reference to the previous figure: from the curve, if the retinal disparity is equal to -0.5, I can infer which firing rate will be produced by the neuron",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q10; NENG_2026-06_part1-even_solutions.pdf#q3; NENG_2026-06_part1-odd_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In reference to the previous figure: there are stimulus orientation angles to which this neuron is “blind” (i.e., it doesn’t show any response).",
+    "answers_seen": "T:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q13; NENG_2024-03_Part1_solutions.pdf#q13; NENG_2024-09_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In the brain primary somatosensory cortex (Penfield homunculus) the extension of the cortical region which maps a specific body region is proportional to that body region's volume.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q6; NENG_2026-06_part1-even_solutions.pdf#q20; NENG_2026-06_part1-odd_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "In the short-term plasticity, there are no structural changes in the post-synaptic membrane.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q9; NENG_2026-06_part1-even_solutions.pdf#q6; NENG_2026-06_part1-odd_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Ion pumps are based on a passive membrane transportation mechanism.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q1; NENG_2024-10_Part1_solutions.pdf#q1; NENG_2025-07_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Modularity belongs to the interval [0, 1]",
+    "answers_seen": "F:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q26; 3.P1.Solutions_Sep2023.pdf#q26; NENG_2024-03_Part1_solutions.pdf#q26"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "PDC is a spectral, bivariate method.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q19; NENG_2024-10_Part1_solutions.pdf#q19; NENG_2025-07_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Potentials recorded by electrodes which are at a close distance on the scalp are mutually independent.",
+    "answers_seen": "F:3",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q10; NENG_2024-03_Part1_solutions.pdf#q10; NENG_2024-06_Part1-odd_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Synchronously activated neurons produce a larger EEG signal than the same amount of neurons when they are asynchronous.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q9; NENG_2024-10_Part1_solutions.pdf#q9; NENG_2025-07_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The cortical pyramidal neurons are oriented tangentially to the cortical surface.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q8; NENG_2024-10_Part1_solutions.pdf#q8; NENG_2025-07_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The differences between the distribution of isi in real data and in simulated data produced by an (uncorrected) Poisson spike generator are due to the refractory periods",
+    "answers_seen": "T:3",
+    "sources": "1.P1.even solutions Jun2022.pdf#q13; 1.P1.odd solutions Jun2022.pdf#q13; 5.P1 Solutions Jan2023.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The following measures of brain electrical correlates are in the correct order, from the less detailed to the more detailed one: Scalp EEG, Local Field Potentials, Electrocorticography, Stereo EEG, Extracellular Recordings, Intracellular Recordings.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q10; NENG_2026-06_part1-even_solutions.pdf#q17; NENG_2026-06_part1-odd_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The Granger Causality Test is a spectral measure.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q18; NENG_2026-06_part1-even_solutions.pdf#q9; NENG_2026-06_part1-odd_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The tuning curve in the figure shows (panel A) the spike trains obtained - for different trials - from a neuron of the primary motor cortex in correspondence to an arm movement, and (panel B) the firing rate f of the same neuron as a function of the angle s of the same movement direction: When the firing rate is 55 Hz, I can infer which movement direction produced that response.",
+    "answers_seen": "T:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q13; 2.P1.even Solutions Jul2022.pdf#q10; 2.P1.odd Solutions Jul2022.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The unmasking of latent synaptic connections is part of the mechanisms behind brain plasticity.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q6; NENG_2024-10_Part1_solutions.pdf#q6; NENG_2025-07_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "The use of Ordinary Coherence can mitigate the problem of the common source.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q20; NENG_2024-10_Part1_solutions.pdf#q20; NENG_2025-07_Part1_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "To detect a sequence of action potentials over the axon of a neural cell in vivo, the correct procedure is to record extracellular measures.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q7; NENG_2024-10_Part1_solutions.pdf#q7; NENG_2025-07_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 3,
+    "question": "Two ipsilateral regions belong to the same hemisphere.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q5; NENG_2024-10_Part1_solutions.pdf#q5; NENG_2025-07_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "Given the ROC curves in the figure, describing a threshold classification between two conditions (stimuli) at different levels of coherence of the stimulation: The best curve is the one closer to the upper left corner.",
+    "answers_seen": "T:4",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q16; 2.P1.even Solutions Jul2022.pdf#q14; 2.P1.odd Solutions Jul2022.pdf#q13; NENG_2024-09_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "In a Poisson process, when r increases, higher values of n are more likely",
+    "answers_seen": "T:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q12; 1.P1.odd solutions Jun2022.pdf#q12; 3.P1 Solutions sep2022.pdf#q12; 5.P1 Solutions Jan2023.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "In reference to the previous figure: from the curve, if the neuron firing rate is equal to 0 Hz I can exactly infer which retinal disparity produced that response.",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q12; NENG_2024-07_Part1-even_solutions.pdf#q11; NENG_2024-10_Part1_solutions.pdf#q12; NENG_2025-02_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "In reference to the previous figure: there are retinal disparity angles to which this neuron is “blind” (i.e., it doesn’t show any response).",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q13; NENG_2024-10_Part1_solutions.pdf#q13; NENG_2026-06_part1-even_solutions.pdf#q4; NENG_2026-06_part1-odd_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "In reference to the previous figure: there is an optimal value z that can be used as a threshold for classification at all coherence levels",
+    "answers_seen": "F:4",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q16; NENG_2024-03_Part1_solutions.pdf#q16; NENG_2024-06_Part1-even_solutions.pdf#q16; NENG_2024-10_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "The tuning curve in the figure shows (panel B) the firing rate f of a neuron in the primary visual cortex as a function of the retinal disparity angle s (panel A). - - + + From the figure, we can infer that the neuron responds mainly to positive s (far-tuned neuron).",
+    "answers_seen": "T:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q10; 1.P1.odd solutions Jun2022.pdf#q10; 2.P1.NewModalities_Solutions_Jul2023.pdf#q10; NENG_2025-02_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 4,
+    "question": "The voltage-gated Na+ channel is responsible for the repolarization phase of the action potential.",
+    "answers_seen": "F:4",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q2; 2.P1.even Solutions Jul2022.pdf#q2; 2.P1.odd Solutions Jul2022.pdf#q17; NENG_2024-07_Part1-odd_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "An IPSP consists of a depolarization of the post-synaptic cell membrane.",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q1; 1.P1.odd solutions Jun2022.pdf#q1; 2.P1.NewModalities_Solutions_Jul2023.pdf#q1; NENG_2024-07_Part1-even_solutions.pdf#q1; NENG_2025-02_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "Divisibility and Modularity are measures of segregation of a network.",
+    "answers_seen": "T:5",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q25; 2.P1.even Solutions Jul2022.pdf#q22; 2.P1.odd Solutions Jul2022.pdf#q8; NENG_2024-07_Part1-odd_solutions.pdf#q22; NENG_2025-04_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "In a graph, the distance d(i,j) between two nodes is given by the average length of the paths that link them.",
+    "answers_seen": "F:5",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q20; NENG_2024-03_Part1_solutions.pdf#q20; NENG_2024-06_Part1-even_solutions.pdf#q22; NENG_2024-10_Part1_solutions.pdf#q22; NENG_2025-07_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "In a graph, the Global Efficiency ∈[0, 1].",
+    "answers_seen": "T:5",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q21; NENG_2024-03_Part1_solutions.pdf#q21; NENG_2024-06_Part1-even_solutions.pdf#q23; NENG_2024-10_Part1_solutions.pdf#q23; NENG_2025-07_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "Temporal and spatial summation can occur simultaneously.",
+    "answers_seen": "T:5",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q3; 2.P1.even Solutions Jul2022.pdf#q3; 2.P1.odd Solutions Jul2022.pdf#q18; NENG_2024-07_Part1-odd_solutions.pdf#q3; NENG_2024-09_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "The continuous conduction is faster than the saltatory (myelinated) one",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q4; NENG_2024-10_Part1_solutions.pdf#q4; NENG_2025-07_Part1_solutions.pdf#q4; NENG_2026-06_part1-even_solutions.pdf#q7; NENG_2026-06_part1-odd_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "The neurons’ spatial orientation affects the amplitude of EEG signals",
+    "answers_seen": "T:5",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q9; 3.P1 Solutions sep2022.pdf#q8; NENG_2024-07_Part1-odd_solutions.pdf#q9; NENG_2024-09_Part1_solutions.pdf#q7; NENG_2025-04_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "A",
+    "occurrences": 5,
+    "question": "To record in vitro measures of the membrane potential over the dendrites of a neural cell, you will use extracellular measures",
+    "answers_seen": "F:5",
+    "sources": "2.P1.NewModalities_Solutions_Jul2023.pdf#q12; 3.P1 Solutions sep2022.pdf#q6; NENG_2024-02_Part1_solutions.pdf#q12; NENG_2024-07_Part1-even_solutions.pdf#q12; NENG_2025-02_Part1_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "In reference to the previous figure (question 10): from the curve, if the neuron firing rate is equal to 0 Hz I can exactly infer which retinal disparity produced that response",
+    "answers_seen": "F:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q11; 1.P1.odd solutions Jun2022.pdf#q11; 2.P1.NewModalities_Solutions_Jul2023.pdf#q11; 3.P1 Solutions sep2022.pdf#q11; 5.P1 Solutions Jan2023.pdf#q11; NENG_2024-02_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "In reference to the previous figure (question 14), among the two distributions (r or r), r is the one affected by + - + the coherence level",
+    "answers_seen": "T:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q15; 1.P1.odd solutions Jun2022.pdf#q15; 2.P1.NewModalities_Solutions_Jul2023.pdf#q15; 3.P1 Solutions sep2022.pdf#q15; 5.P1 Solutions Jan2023.pdf#q15; NENG_2025-02_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "In the event of data paucity, the Partial Directed Coherence (PDC) is the most accurate estimator of causality in the statistical sense.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q21; 2.P1.even Solutions Jul2022.pdf#q18; 2.P1.odd Solutions Jul2022.pdf#q4; NENG_2024-07_Part1-odd_solutions.pdf#q18; NENG_2025-04_Part1_solutions.pdf#q18; NENG_2025-09_Part1_solutions.pdf#q20"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The brain operates at the temporal scale of milliseconds.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q8; 2.P1.even Solutions Jul2022.pdf#q6; 2.P1.odd Solutions Jul2022.pdf#q9; NENG_2024-07_Part1-odd_solutions.pdf#q8; NENG_2024-09_Part1_solutions.pdf#q4; NENG_2025-04_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The firing rate influences the amplitude of the resulting action potential in the post-synaptic cell.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q4; 2.P1.even Solutions Jul2022.pdf#q4; 2.P1.odd Solutions Jul2022.pdf#q19; NENG_2024-07_Part1-odd_solutions.pdf#q4; NENG_2024-09_Part1_solutions.pdf#q2; NENG_2025-04_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The firing rate of the pre-synaptic neuron influences the temporal summation of the PSPs in the post-synaptic cell.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q4; 1.P1.odd solutions Jun2022.pdf#q4; 2.P1.NewModalities_Solutions_Jul2023.pdf#q4; NENG_2024-02_Part1_solutions.pdf#q4; NENG_2024-07_Part1-even_solutions.pdf#q4; NENG_2025-02_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The long-term synaptic plasticity involves a structural change in the post-synaptic membrane.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q7; 2.P1.even Solutions Jul2022.pdf#q5; 2.P1.NewModalities_Solutions_Jul2023.pdf#q24; 2.P1.odd Solutions Jul2022.pdf#q15; NENG_2024-02_Part1_solutions.pdf#q24; NENG_2024-07_Part1-odd_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The normalized Partial Directed Coherence ∈[0, 1]",
+    "answers_seen": "T:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q16; 1.P1.odd solutions Jun2022.pdf#q16; 2.P1.NewModalities_Solutions_Jul2023.pdf#q16; NENG_2024-02_Part1_solutions.pdf#q16; NENG_2024-07_Part1-even_solutions.pdf#q16; NENG_2025-02_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The part of the pyramidal neuron that acts as a current dipole is the axon",
+    "answers_seen": "F:6",
+    "sources": "2.P1.NewModalities_Solutions_Jul2023.pdf#q13; 3.P1 Solutions sep2022.pdf#q7; NENG_2024-02_Part1_solutions.pdf#q13; NENG_2024-07_Part1-even_solutions.pdf#q13; NENG_2024-09_Part1_solutions.pdf#q10; NENG_2025-02_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The short-term synaptic plasticity involves an irreversible change in the post-synaptic membrane.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q7; 1.P1.odd solutions Jun2022.pdf#q7; 2.P1.NewModalities_Solutions_Jul2023.pdf#q7; 5.P1 Solutions Jan2023.pdf#q7; NENG_2024-02_Part1_solutions.pdf#q7; NENG_2024-07_Part1-even_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The synchronicity of the neural activity affects the amplitude of EEG signals.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q10; 2.P1.even Solutions Jul2022.pdf#q7; 2.P1.odd Solutions Jul2022.pdf#q10; NENG_2024-07_Part1-odd_solutions.pdf#q10; NENG_2024-09_Part1_solutions.pdf#q6; NENG_2025-04_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The voltage-gated K+ channel inactivation state is responsible for the absolute refractory period.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q1; 2.P1.even Solutions Jul2022.pdf#q1; 2.P1.odd Solutions Jul2022.pdf#q16; NENG_2024-07_Part1-odd_solutions.pdf#q1; NENG_2024-09_Part1_solutions.pdf#q1; NENG_2025-04_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "A",
+    "occurrences": 6,
+    "question": "The voltage-gated Na+ channel is responsible for the absolute refractory period.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q2; 1.P1.odd solutions Jun2022.pdf#q2; 2.P1.NewModalities_Solutions_Jul2023.pdf#q2; 5.P1 Solutions Jan2023.pdf#q2; NENG_2024-02_Part1_solutions.pdf#q2; NENG_2024-07_Part1-even_solutions.pdf#q2"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "Given the distribution of firing rates in the figure: The discriminability d’ when the coherence=3.2% is higher than when it’s =12.8%",
+    "answers_seen": "F:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q14; 1.P1.odd solutions Jun2022.pdf#q14; 2.P1.NewModalities_Solutions_Jul2023.pdf#q14; 5.P1 Solutions Jan2023.pdf#q14; NENG_2024-02_Part1_solutions.pdf#q14; NENG_2024-07_Part1-even_solutions.pdf#q14; NENG_2025-02_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "Scalp EEG is mainly produced by deep (subcortical) regions.",
+    "answers_seen": "F:7",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q11; 2.P1.even Solutions Jul2022.pdf#q8; 2.P1.odd Solutions Jul2022.pdf#q11; NENG_2024-07_Part1-odd_solutions.pdf#q11; NENG_2024-09_Part1_solutions.pdf#q9; NENG_2025-04_Part1_solutions.pdf#q11; NENG_2025-09_Part1_solutions.pdf#q12"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "The EEG signal is mainly generated by action potentials.",
+    "answers_seen": "F:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q9; 1.P1.odd solutions Jun2022.pdf#q9; 2.P1.NewModalities_Solutions_Jul2023.pdf#q9; 5.P1 Solutions Jan2023.pdf#q9; NENG_2024-02_Part1_solutions.pdf#q9; NENG_2024-07_Part1-even_solutions.pdf#q9; NENG_2025-02_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "The most informative parameter of the spike train in output to a neuronal cell is the amplitude of the spikes.",
+    "answers_seen": "F:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q3; 1.P1.odd solutions Jun2022.pdf#q3; 2.P1.NewModalities_Solutions_Jul2023.pdf#q3; 5.P1 Solutions Jan2023.pdf#q3; NENG_2024-02_Part1_solutions.pdf#q3; NENG_2024-07_Part1-even_solutions.pdf#q3; NENG_2025-02_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "To record in vivo measures of the membrane potential over the axon of a single neural cell, you will use extracellular measures.",
+    "answers_seen": "T:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q8; 1.P1.odd solutions Jun2022.pdf#q8; 2.P1.NewModalities_Solutions_Jul2023.pdf#q8; 5.P1 Solutions Jan2023.pdf#q8; NENG_2024-02_Part1_solutions.pdf#q8; NENG_2024-07_Part1-even_solutions.pdf#q8; NENG_2025-02_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "A",
+    "occurrences": 7,
+    "question": "Undirected graphs produce symmetrical adjacency matrices",
+    "answers_seen": "T:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q22; 1.P1.odd solutions Jun2022.pdf#q22; 2.P1.NewModalities_Solutions_Jul2023.pdf#q22; 3.P1 Solutions sep2022.pdf#q22; 5.P1 Solutions Jan2023.pdf#q22; NENG_2024-02_Part1_solutions.pdf#q22; NENG_2025-02_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "A",
+    "occurrences": 8,
+    "question": "If Cxy(f) is the ordinary coherence between x and y, Cxy(f)=Cyx(f)",
+    "answers_seen": "T:8",
+    "sources": "1.P1.even solutions Jun2022.pdf#q18; 1.P1.odd solutions Jun2022.pdf#q18; 2.P1.NewModalities_Solutions_Jul2023.pdf#q18; 3.P1 Solutions sep2022.pdf#q17; 5.P1 Solutions Jan2023.pdf#q18; NENG_2024-02_Part1_solutions.pdf#q18; NENG_2024-07_Part1-even_solutions.pdf#q18; NENG_2025-02_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "A",
+    "occurrences": 8,
+    "question": "In the brain primary motor cortex (Penfield homunculus) the extension of the cortical region which controls a specific body region is proportional to that body region's volume.",
+    "answers_seen": "F:8",
+    "sources": "1.P1.even solutions Jun2022.pdf#q6; 1.P1.NewModalities_Solutions_Jun2023.pdf#q6; 1.P1.odd solutions Jun2022.pdf#q6; 2.P1.NewModalities_Solutions_Jul2023.pdf#q6; 5.P1 Solutions Jan2023.pdf#q6; NENG_2024-02_Part1_solutions.pdf#q6; NENG_2024-07_Part1-even_solutions.pdf#q6; NENG_2024-07_Part1-odd_solutions.pdf#q6"
+  },
+  {
+    "part": "A",
+    "occurrences": 8,
+    "question": "Regular networks have a smaller Local Efficiency than random networks",
+    "answers_seen": "F:8",
+    "sources": "1.P1.even solutions Jun2022.pdf#q21; 1.P1.odd solutions Jun2022.pdf#q21; 2.P1.NewModalities_Solutions_Jul2023.pdf#q21; 3.P1 Solutions sep2022.pdf#q21; 5.P1 Solutions Jan2023.pdf#q21; NENG_2024-02_Part1_solutions.pdf#q21; NENG_2024-09_Part1_solutions.pdf#q23; NENG_2025-02_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 8,
+    "question": "The electrical variation of the membrane potential that mainly contributes to EEG is the action potential.",
+    "answers_seen": "F:8",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q12; 2.P1.even Solutions Jul2022.pdf#q9; 2.P1.NewModalities_Solutions_Jul2023.pdf#q26; 2.P1.odd Solutions Jul2022.pdf#q12; NENG_2024-02_Part1_solutions.pdf#q26; NENG_2024-07_Part1-odd_solutions.pdf#q12; NENG_2025-04_Part1_solutions.pdf#q12; NENG_2025-09_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "A",
+    "occurrences": 9,
+    "question": "In a graph, the minimum Divisibility is equal to zero.",
+    "answers_seen": "F:9",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q24; 2.P1.even Solutions Jul2022.pdf#q21; 2.P1.odd Solutions Jul2022.pdf#q7; 3.P1.Solutions_Sep2023.pdf#q24; NENG_2024-03_Part1_solutions.pdf#q24; NENG_2024-07_Part1-even_solutions.pdf#q23; NENG_2024-07_Part1-odd_solutions.pdf#q21; NENG_2024-09_Part1_solutions.pdf#q24; NENG_2025-04_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "A",
+    "occurrences": 9,
+    "question": "Random networks have a smaller Local Efficiency than regular (lattice) networks.",
+    "answers_seen": "T:9",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q23; 2.P1.even Solutions Jul2022.pdf#q20; 2.P1.odd Solutions Jul2022.pdf#q6; 3.P1.Solutions_Sep2023.pdf#q23; NENG_2024-03_Part1_solutions.pdf#q23; NENG_2024-07_Part1-even_solutions.pdf#q22; NENG_2024-07_Part1-odd_solutions.pdf#q20; NENG_2025-04_Part1_solutions.pdf#q20; NENG_2025-09_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "A",
+    "occurrences": 9,
+    "question": "The difference between the Wiener’s and Granger’s definitions of causality in the statistical sense is that Granger indicated a modeling framework to be used to test causality",
+    "answers_seen": "T:9",
+    "sources": "1.P1.even solutions Jun2022.pdf#q19; 1.P1.odd solutions Jun2022.pdf#q19; 2.P1.NewModalities_Solutions_Jul2023.pdf#q19; 3.P1 Solutions sep2022.pdf#q16; 5.P1 Solutions Jan2023.pdf#q19; NENG_2024-02_Part1_solutions.pdf#q19; NENG_2024-07_Part1-even_solutions.pdf#q19; NENG_2024-09_Part1_solutions.pdf#q19; NENG_2025-02_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "A",
+    "occurrences": 9,
+    "question": "The frontal lobe houses the primary visual function.",
+    "answers_seen": "F:9",
+    "sources": "1.P1.even solutions Jun2022.pdf#q5; 1.P1.NewModalities_Solutions_Jun2023.pdf#q5; 1.P1.odd solutions Jun2022.pdf#q5; 2.P1.NewModalities_Solutions_Jul2023.pdf#q5; NENG_2024-02_Part1_solutions.pdf#q5; NENG_2024-07_Part1-even_solutions.pdf#q5; NENG_2024-07_Part1-odd_solutions.pdf#q5; NENG_2024-09_Part1_solutions.pdf#q5; NENG_2025-02_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "A",
+    "occurrences": 9,
+    "question": "The Granger Test is more suitable than the Ordinary Coherence to obtain a spectral measure",
+    "answers_seen": "F:9",
+    "sources": "1.P1.even solutions Jun2022.pdf#q17; 1.P1.odd solutions Jun2022.pdf#q17; 2.P1.NewModalities_Solutions_Jul2023.pdf#q17; 3.P1 Solutions sep2022.pdf#q19; 5.P1 Solutions Jan2023.pdf#q17; NENG_2024-02_Part1_solutions.pdf#q17; NENG_2024-07_Part1-even_solutions.pdf#q17; NENG_2024-09_Part1_solutions.pdf#q21; NENG_2025-02_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "A",
+    "occurrences": 10,
+    "question": "In an undirected graph, I cannot compute the indegree and the outdegree.",
+    "answers_seen": "T:10",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q22; 2.P1.even Solutions Jul2022.pdf#q19; 2.P1.NewModalities_Solutions_Jul2023.pdf#q25; 2.P1.odd Solutions Jul2022.pdf#q5; NENG_2024-02_Part1_solutions.pdf#q25; NENG_2024-06_Part1-even_solutions.pdf#q24; NENG_2024-07_Part1-odd_solutions.pdf#q19; NENG_2024-09_Part1_solutions.pdf#q22; NENG_2024-10_Part1_solutions.pdf#q24; NENG_2025-07_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "A",
+    "occurrences": 10,
+    "question": "Regular networks have a smaller Global Efficiency than random networks",
+    "answers_seen": "T:10",
+    "sources": "1.P1.even solutions Jun2022.pdf#q20; 1.P1.odd solutions Jun2022.pdf#q20; 2.P1.NewModalities_Solutions_Jul2023.pdf#q20; 3.P1 Solutions sep2022.pdf#q20; 5.P1 Solutions Jan2023.pdf#q20; NENG_2024-02_Part1_solutions.pdf#q20; NENG_2024-07_Part1-even_solutions.pdf#q20; NENG_2024-07_Part1-odd_solutions.pdf#q23; NENG_2025-02_Part1_solutions.pdf#q20; NENG_2025-04_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "\" 𝐴𝑅𝑉 = & ∑ %(𝑥[𝑖])$, where the sum extends on ! # the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "# 𝐴𝑅𝑉 = ) ∑ &(𝑥[𝑖])%, where the sum extends on \" $ the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "# 𝐴𝑅𝑉 = , ∑ !(𝑥[𝑖])%, where the sum extends on \" $ the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": ") 𝐴𝑅𝑉 = - ∑ (𝑥[𝑖])+, where the sum extends on - / . the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": ") 𝐴𝑅𝑉 = 3 ∑ .(𝑥[𝑖])+, where the sum extends on , - the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-09_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": ") 𝐴𝑅𝑉 = = ∑ (𝑥[𝑖])+, where the sum extends on - / . the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "* 𝐴𝑅𝑉 = - ∑ /(𝑥[𝑖]),, where the sum extends on - . the N samples of the signal x[i]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A BCI is a system that measures brain activity and converts it to an artificial output.",
+    "answers_seen": "T:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A BCI system may replace functions that are physiologically subserved by nerves and muscles, by directly measuring brain activity and converting it to an artificial output.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A negative peak in a ERP recorded on a specific subject with a latency of 108)* may still be named N100, if it matches the physiological phenomenon of the nominal N100 component.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A rectangular window is always the best choice for spectral analysis because it has the narrowest main lobe and no sidelobes.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A ‘run’ is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/# \" seconds after the previous (# being the sampling \" frequency)",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A ‘run’ is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/𝑓 $ seconds after the previous (𝑓 being the sampling $ frequency)",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "A ‘run’ is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/𝑓 , seconds after the previous (𝑓 being the sampling , frequency)",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "An artifact is a potential difference due to sources outside the brain.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Artifacts on biosignal recordings cannot have biological origin.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "As a preliminary step to EEG data analysis, one or more channels can be removed from the dataset if they are extensively contaminated by artifacts",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Averaging raw EEG trials before computing the power spectrum is the standard method for analyzing non-phase-locked induced activity.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "EEG electrodes made of gold allow recording of extremely slow-changing potentials.",
+    "answers_seen": "F:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "EMG artifact can easily appear on the EEG recording unless the subjects are specifically instructed by the experimenter on how to relax their face muscles.",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "EMG artifacts on a EEG recording mainly affects the alpha band and specifically the mu rhythm.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Given 100 independent and identically distributed random variables with variance equal to 4, the variance of their average is 0.2?",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Given 100 independent and identically distributed random variables with variance equal to 4, the variance of their average is 0.4?",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Given two ranges of equal width A=[-0.1,+0.1] and B=[0.8,1.0], it is less likely that samples of a sinewave x=(t) will have amplitude in A rather than B.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In a 3-channel EEG recording, if the potentials at a given instant are +10𝜇𝑉, −5𝜇𝑉, and −15𝜇𝑉, the Common Average Reference (CAR) value is +10𝜇𝑉.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the number 𝐿 of & & discrete amplitude levels: 𝜎 = ⋅𝐿 = ⋅ !\"#$% √&( √&( 2)*+,",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the \" quantization interval (𝑉 '()): 𝜎 = ⋅𝑉 *+,-. '() √\"$",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the # quantization interval (𝑉 '()): 𝜎 = ⋅𝑉 *+,-. '() √#%",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the # quantization interval (𝑉 ()*): 𝜎 = ⋅𝑉 +,-./ ()* √#%",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "In ERP analysis where preserving the exact shape of the waveform is critical, a linear-phase FIR filter is generally a better choice than an IIR filter.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Increasing the Inter-Electrode Distance (IED) in a bipolar recording decreases the signal amplitude and increases selectivity.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Induced activity is best analyzed by applying synchronized averaging to the EEG trials.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Induced activity is often examined by analyzing the envelope of the EEG in a relevant frequency band, i.e. by rectifying or squaring the pass-band filtered trials before averaging",
+    "answers_seen": "T:1",
+    "sources": "1.P1.even solutions Jun2022.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "It is more likely that samples of zero mean a gaussian noise will have amplitude in [-0.5,+0.5] rather than [0.5,1.5]",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "It is more likely that samples of zero mean a gaussian noise will have amplitude in the range [−0.5,0] rather than in [0,0.5]",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Movement of the subject’s head may produce slow artifacts that are less pronounced when non-polarizable electrodes are used",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Movements of the subject’s head produces EEG artifacts mainly in the lowest part of the spectrum.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-10_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "One can never remove one of the channels from the raw EEG recording prior to analysis. Rather all epochs contaminated from artifacts will be rejected.",
+    "answers_seen": "F:1",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Quantization divides the input range of the ADC into (approximately) 2%&'() intervals, where NBITS is the number of bits of the ADC.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "Quantization divides the input range of the ADC into (approximately) 2𝑁𝐵𝐼𝑇𝑆 intervals, where NBITS is the number of bits of the ADC.",
+    "answers_seen": "T:1",
+    "sources": "2.P1.NewModalities_Solutions_Jul2023.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The 8 (eta) rhythm is an oscillatory component of the spontaneous EEG",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The alpha rhythm is said to be synchronized when the amplitude of its oscillations increase.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The amplitude of an ERP is measured with respect to its value at the time of the event.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-04_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The amplitude of ERPs is measured with respect to a baseline epoch (usually preceding the stimulus), in which the amplitude is assumed to be zero.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q26"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The amplitude of the electromyogram (EMG) originated from muscles never exceed 10 𝜇𝑉.",
+    "answers_seen": "F:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q25"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The averaging procedure can reliably uncover components of an ERP corresponding to evoked activity of the brain.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Butterworth filter is a design method in the family of Finite Impulse Response filters",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Central Limit Theorem (CLT) states that the average of N independent identically distributed signals approaches zero for 𝑁 → ∞.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Central Limit Theorem (CLT) states that the average of 𝑁 independent identically distributed signals tends to zero for 𝑁 →∞.",
+    "answers_seen": "F:1",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The CMRR is usually expressed in decibel (dB) and high values characterizes better amplifiers.",
+    "answers_seen": "T:1",
+    "sources": "3.P1.Solutions_Sep2023.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The DFT of a digital signal with N samples yields N/2 values of the signal’s spectrum.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The DFT of a signal represents the amplitude ! ! and initial phases \" of sinewave components of ! the signal at frequencies # ranging from 0%& ! (included) to the sampling frequency (excluded).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The DFT of a signal represents the amplitude 𝐴 ! and initial phases 𝜙 of sinewave components of ! the signal at frequencies 𝑓 ranging from 0𝐻𝑧 ! (included) to the sampling frequency (excluded).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-odd_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The DFT of a signal represents the amplitude 𝐴 % and initial phases 𝜙 of sinewave components of % the signal at frequencies 𝑓 ranging from 0𝐻𝑧 % (included) to the sampling frequency (excluded).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The DFT of a signal represents the amplitude 𝐴 . and initial phases 𝜙 of sinewave components of . the signal at frequencies 𝑓 ranging from 0𝐻𝑧 . (included) to the sampling frequency (excluded).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-09_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The estimation of ERPs requires the acquisition of numerous repetitions of the stimulus or event which evoked or induced the potential.",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The eye’s potential is more negative in its frontal part than its posterior part, and thus its movements can generate large positive artifacts on the EEG.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The frequency response of a filter in the stopband should never be plotted in logarithmic units (i.e. with the gain is expressed in dB).",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The frequency spectrum of a gaussian noise is flat, i.e. it has the same power at any frequency.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The heart activity can contaminate an EEG recording because a ballistocardiographic artifact is indirectly generated by the pulse of a blood vessel causing movements of a nearby electrode.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The higher the sampling frequency of a digital signal, the higher the frequency resolution of its spectrum.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The input impedance of a biosignal amplifier must be many orders of magnitude higher than the contact impedance of the electrodes",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The input impedance of a biosignal amplifier must be many orders of magnitude higher than the contact impedance of the electrodes. It is usual to have input impedances in the order of 10,Ω.",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Inter-Stimulus Interval (ISI) equals the SOA minus the ITI.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Inter-Stimulus Interval (ISI) measures the time interval between two successive stimuli in a train.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The International 10-20 System for EEG electrodes placement takes its name from the fact that it describes the standard position of a set of at least 10 and up to 20 electrodes.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The ISI is always greater than the SOA",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The measurement of a single EEG signal requires four electrodes – two as input to the differential amplifier, one connected to the reference electrode and one to provide the ground potential.",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The mu rhythm and the alpha rhythm have approximately the same frequency of oscillation and originate in different lobes of the cerebral cortex",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The mu rhythm is generated in the central regions of the cerebral cortex",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The Nyquist frequency is the highest frequency of a component in an analog signal.",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The oscillations of mu rhythm are more “arc- shaped” than the alpha rhythm’s, which is comparatively a more symmetrical sinewave",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The oscillations of mu rhythm are more “arc-shaped” than the alpha rhythm’s, which is comparatively a more symmetrical sinewave",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The oscillations of mu rhythm are more “arc-shaped”, rather than resembling a regular sinewave",
+    "answers_seen": "T:1",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The potential at the peak of the EP component N20 is lower than the potential at the peak of the P100 component",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The RMS and the standard deviation of a zero-mean signal have the same value (assume that the number of samples 𝑁 → ∞).",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The sample variance of a signal is given by 𝑠 &' = )( ∑ +(𝑥 −𝑋5)', where the sum + *( extends on the 𝑁 samples of the signal 𝑋",
+    "answers_seen": "T:1",
+    "sources": "2.P1.odd Solutions Jul2022.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The sample variance of a signal is given by 𝑠 )( = +* ∑ -(𝑥 −𝑋3)(, where the sum - ,* extends on the 𝑁 samples of the signal 𝑋",
+    "answers_seen": "T:1",
+    "sources": "5.P1 Solutions Jan2023.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The sample variance of a signal is given by 𝑠 )( = +* ∑ -(𝑥 −𝑋9)(, where the sum - ,* extends on the 𝑁 samples of the signal 𝑋",
+    "answers_seen": "T:1",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The synchronized average of N trials containing only spontaneous EEG whose variance is ,-. = 0' is a signal whose variance is #$!%& ,-. = 0'/1 %()",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The synchronized average of N trials containing only spontaneous EEG whose variance {var}{trial}=^2 is a signal whose variance {var}{avg}=^2/N",
+    "answers_seen": "T:1",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The theta rhythm includes oscillations with a frequency of 5 Hz",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The variance of a signal is estimated by summing the square of all deviations of the N sample values from the sample mean, and then dividing by (𝑁−1)",
+    "answers_seen": "T:1",
+    "sources": "NENG_2024-10_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "The 𝜂 (eta) rhythm is an oscillatory component of the spontaneous EEG",
+    "answers_seen": "F:1",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "When aliasing occurs in ADC, a sinusoidal component with frequency 𝑓 = 0.7 ⋅𝑓 is ! \" reconstructed as a sinusoidal component at 𝑓 = # 0.2 ⋅𝑓 (𝑓 is the sampling frequency) \" \"",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "When aliasing occurs in ADC, a sinusoidal component with frequency 𝑓 = 0.7𝑓 is \" # reconstructed as a sinusoidal component at 𝑓 = 0.2𝑓 $ # (𝑓 is the sampling frequency) #",
+    "answers_seen": "F:1",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "With respect to the alpha rhythm, the oscillations of mu rhythm are more “arc-shaped”, rather than resembling a regular sinewave",
+    "answers_seen": "T:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 1,
+    "question": "𝐴𝑅𝑉 = 1/𝑁 ∑ \"𝑥 \"#, where the sum ! extends on the 𝑁 samples of the signal 𝑋",
+    "answers_seen": "F:1",
+    "sources": "3.P1 Solutions sep2022.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "A 12-bit ADC divides its input range into approximately 4096 quantization intervals.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q4; NENG_2026-06_part1-odd_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "An eyeblink produces an artifact which often interferes with the analysis of the theta band of the EEG.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q5; NENG_2026-06_part1-odd_solutions.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Appropriate application of an analog filter (i.e. before the analog signal is converted) may prevent saturation by removing high amplitude artifacts in specific frequency bands.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q15; 3.P1.Solutions_Sep2023.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "At its cutoff frequency, a filter blocks the signal almost completely, its gain dropping to approximately zero.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q20; NENG_2026-06_part1-odd_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Contact impedance of the electrodes can be measured using a direct (non-alternating) current.",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q5; 3.P1.Solutions_Sep2023.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "During the kinesthetic imagination of a movement, sensorimotor rhythms (SMR) in the alpha and beta bands synchronize, resulting in a significant increase in spectral power.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q23; NENG_2026-06_part1-odd_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Event-Related Desynchronization/ Synchronization (ERD/S) quantify phase-locked brain activity in response to an event",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q14; NENG_2026-06_part1-odd_solutions.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Evoked brain activity is phase-locked to the stimulus to which it is a response.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q12; 3.P1.Solutions_Sep2023.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "If the electrodes' contact impedance is much lower than the amplifier's input impedance, the measured potential is significantly smaller than the actual biological potential.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q13; NENG_2026-06_part1-odd_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the * quantization interval (𝑉 \"#$): 𝜎 = ⋅𝑉 %&'() \"#$ √*,",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-07_Part1-odd_solutions.pdf#q17; NENG_2024-10_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "In Analog to Digital Conversion, the Nyquist frequency equals half of the sampling frequency.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q14; 3.P1.Solutions_Sep2023.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "In the EEG terminology, impedance is a measure of the ability of an experimental subject to carry on an experiment.",
+    "answers_seen": "F:2",
+    "sources": "5.P1 Solutions Jan2023.pdf#q1; NENG_2024-02_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "It is more likely that samples of a zero-mean gaussian noise will have amplitude in the range [-0.5,0] rather than in [0,0.5].",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q2; NENG_2026-06_part1-odd_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Movements of the subject's head produce EEG artifacts mainly in the lowest part of the spectrum.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q19; NENG_2026-06_part1-odd_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Notch filters effectively remove powerline noise because they selectively reject the narrow band affected by the artifact, preserving almost entirely the useful signal.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q9; NENG_2024-02_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Powerline noise is accentuated by asymmetries in the recording electrode pairs, such as impedances and cable path, because asymmetries prevent the noise to be rejected by the amplifier’s common-mode rejection capabilities.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q8; NENG_2024-02_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Quantization divides the input range of the ADC into (approximately) 2$%&'( intervals, where NBITS is the number of bits of the ADC.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.even solutions Jun2022.pdf#q18; 1.P1.odd solutions Jun2022.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Quantization divides the input range of the ADC into (approximately) NBITS intervals, where NBITS is the number of bits of the ADC.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q18; NENG_2025-07_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Quantization divides the input range of the ADC into (approximately) 𝑁𝐵𝐼𝑇𝑆 intervals, where NBITS is the number of bits of the ADC.",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q16; 3.P1.Solutions_Sep2023.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Spectral analysis is well suited at identifying narrowband useful signals in (approximately) white noise, because a peak in the spectrum may still be detected even when the low signal- to-noise ratio (SNR) prevents the signal’s waveform to be recognized among the noise samples.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.even solutions Jun2022.pdf#q17; NENG_2024-03_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Spectral analysis is well suited at identifying narrowband useful signals in (approximately) white noise, because a peak in the spectrum may still be detected even when the low signal-to-noise ratio (SNR) prevents the signal’s waveform to be recognized among the noise samples.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.odd solutions Jun2022.pdf#q20; 2.P1.NewModalities_Solutions_Jul2023.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Synchronized averaging of N EEG trials produces a single waveform with the same number of samples as an individual trial.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q15; NENG_2026-06_part1-odd_solutions.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The \"waxing and waning\" of the alpha rhythm is a change of amplitude whose duration is in the order of magnitude of 1 second.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q6; NENG_2026-06_part1-odd_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The Average Rectified Value (ARV) is a measure of the amplitude of a signal, and it is obtained by summing the absolute values of all samples and dividing the result by the number of samples.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q20; NENG_2024-10_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The DFT of a signal represents the amplitude 𝐴 / and initial phases 𝜙 of sinewave components of / the signal at frequencies 𝑓 ranging from 0𝐻𝑧 / (included) to the sampling frequency (excluded).",
+    "answers_seen": "T:2",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q23; NENG_2025-06_part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The EEG electrode F8 is located to the left of electrode F7",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q6; 3.P1.Solutions_Sep2023.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The EEG electrode Fz is located to the left of electrode Cz",
+    "answers_seen": "F:2",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q7; NENG_2025-09_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The frequency of oscillation of the beta rhythm is around 10 Hz",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q1; NENG_2024-02_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The measurement of a single EMG signal requires three electrodes – two as input to the differential amplifier and one to provide the ground potential.",
+    "answers_seen": "T:2",
+    "sources": "3.P1 Solutions sep2022.pdf#q3; NENG_2025-07_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The method of the averaged periodogram to estimate the spectrum of a stochastic signal is applied when a lower variability of the PSD estimate at each frequency sample is desirable, while the spectral resolution 𝛥𝑓 is higher than required.",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q20; NENG_2024-02_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The propagating muscle fiber action potential (MFAP) can be modeled as a tripole: a central negative phase flanked by two (leading and trailing) positive phases.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q3; NENG_2026-06_part1-odd_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The purpose a filter is to allow desired spectral component of a signal to pass almost unaltered, while attenuating undesired spectral components",
+    "answers_seen": "T:2",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q22; NENG_2025-09_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The reconstruction of an analog signal from its sampled version is equivalent to the linear interpolation of the samples.",
+    "answers_seen": "F:1; T:1",
+    "sources": "NENG_2024-10_Part1_solutions.pdf#q15; NENG_2025-09_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The reconstruction of an analog signal from its sampled version is equivalent to the sum a set of a set of sinc() functions, one for each sample.",
+    "answers_seen": "T:2",
+    "sources": "2.P1.NewModalities_Solutions_Jul2023.pdf#q24; NENG_2024-03_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The reconstruction of an analog signal from its sampled version is equivalent to the sum a set of a set of 𝑠𝑖𝑛𝑐() functions, one for each sample.",
+    "answers_seen": "T:2",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q11; 2.P1.odd Solutions Jul2022.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The RMS and the standard deviation of a zero- mean signal have the same value (assume that the number of samples 𝑁 → ∞).",
+    "answers_seen": "T:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q17; 3.P1.Solutions_Sep2023.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The RMS and the variance of a zero-mean signal have the same value (assume the number of samples N → ∞).",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q11; NENG_2026-06_part1-odd_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The η (eta) rhythm is an oscillatory component of the spontaneous EEG",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q24; NENG_2026-06_part1-odd_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The “waxing and waning” of the alpha rhythm is a change of amplitude occurring about 10 times a second.",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q23; 3.P1.Solutions_Sep2023.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "The “waxing and waning” of the alpha rhythm is a change of amplitude whose duration is in the order of magnitude of 1 second.",
+    "answers_seen": "T:2",
+    "sources": "NENG_2024-10_Part1_solutions.pdf#q2; NENG_2025-09_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "When aliasing occurs in ADC, a sinusoidal component with frequency 𝑓 = 0.7 𝑓 is ! \" reconstructed as a sinusoidal component at 𝑓 = 0.2 𝑓 # \" (𝑓 is the sampling frequency) \"",
+    "answers_seen": "F:2",
+    "sources": "1.P1.even solutions Jun2022.pdf#q13; 1.P1.odd solutions Jun2022.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "When aliasing occurs in ADC, a sinusoidal component with frequency 𝑓 = 0.7 𝑓 is 0 𝑠 reconstructed as a sinusoidal component at 𝑓 = 0.2 𝑓 1 𝑠 (𝑓 is the sampling frequency) 𝑠",
+    "answers_seen": "F:2",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q25; 2.P1.NewModalities_Solutions_Jul2023.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 2,
+    "question": "Zero-padding a signal increases the ability of spectral analysis to separate two closely-spaced frequency components.",
+    "answers_seen": "F:2",
+    "sources": "NENG_2026-06_part1-even_solutions.pdf#q22; NENG_2026-06_part1-odd_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "A key advantage of FIR filters is their ability to be designed with linear phase, thus avoiding the introduction of time-domain waveform distortions.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q22; NENG_2026-06_part1-even_solutions.pdf#q17; NENG_2026-06_part1-odd_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "A ‘run’ is a portion of recording in an experimental protocol that contains no breaks, i.e. all samples contained therein have been acquired 1/𝑓 ! seconds after the previous (𝑓 being the sampling ! frequency)",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q16; NENG_2024-07_Part1-odd_solutions.pdf#q7; NENG_2024-10_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "An IIR filter can be designed to have “linear phase”, so that they do not introduce time-domain distortions in the waveform of the output signal.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q13; NENG_2024-09_Part1_solutions.pdf#q23; NENG_2025-06_part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "Digital processing can remove all significant artifacts, and thus it is not worth using the measurement time to reduce their presence on the raw recording.",
+    "answers_seen": "F:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q9; 2.P1.odd Solutions Jul2022.pdf#q7; 5.P1 Solutions Jan2023.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "If the electrodes’ contact impedance is not much lower than the amplifier’s input impedance, the amplitude of the measured potential is closer to zero than the actual value.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q12; NENG_2024-06_Part1-odd_solutions.pdf#q19; NENG_2024-09_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In a typical single-trial recording, the peak amplitude of an Evoked Potential is larger than the amplitude of the background spontaneous EEG.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q12; NENG_2026-06_part1-even_solutions.pdf#q16; NENG_2026-06_part1-odd_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the ) quantization interval (𝑉 !\"#): 𝜎 = ⋅𝑉 $%&'( !\"# √)+",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-09_Part1_solutions.pdf#q17; NENG_2025-04_Part1_solutions.pdf#q5; NENG_2025-06_part1_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In an ADC, quantization introduces a noise whose amplitude is proportional to the width of the quantization interval: 𝜎 = !\"#$% 1/√12 𝐿𝑆𝐵",
+    "answers_seen": "T:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q12; 2.P1.odd Solutions Jul2022.pdf#q15; 5.P1 Solutions Jan2023.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In an EEG recording, a session contains one or more trials, each of which contains one or more runs",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-06_part1_solutions.pdf#q12; NENG_2026-06_part1-even_solutions.pdf#q12; NENG_2026-06_part1-odd_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In analog-to-digital conversion, each spectral component of the analog signal should have frequency below the Nyquist frequency.",
+    "answers_seen": "T:3",
+    "sources": "5.P1 Solutions Jan2023.pdf#q11; NENG_2024-02_Part1_solutions.pdf#q16; NENG_2025-02_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "In the EEG terminology, impedance is a measure of the quality of the contact between electrode and scalp, through the conductive gel",
+    "answers_seen": "T:3",
+    "sources": "1.P1.even solutions Jun2022.pdf#q3; 1.P1.odd solutions Jun2022.pdf#q5; 2.P1.NewModalities_Solutions_Jul2023.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "It is more likely that samples of zero mean a gaussian noise will have amplitude in [−0.5, +0.5] rather than [0.5,1.5]",
+    "answers_seen": "T:3",
+    "sources": "1.P1.even solutions Jun2022.pdf#q20; 1.P1.odd solutions Jun2022.pdf#q18; 2.P1.NewModalities_Solutions_Jul2023.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "Powerline noise is an artifact caused by the capacitive coupling between the power supply conductors and the recording setup including the subject.",
+    "answers_seen": "T:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q10; 2.P1.odd Solutions Jul2022.pdf#q8; 5.P1 Solutions Jan2023.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "Raw EMG amplitude in millivolts can be directly compared between different subjects without any normalization.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q20; NENG_2026-06_part1-even_solutions.pdf#q1; NENG_2026-06_part1-odd_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "Spectral leakage spreads each frequency sample of the original spectrum with a pattern defined by the DFT of the windowing function, and thus is characterized by a main lobe and several side lobes.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2025-09_Part1_solutions.pdf#q19; NENG_2026-06_part1-even_solutions.pdf#q9; NENG_2026-06_part1-odd_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The advantage of a high CMRR amplifier is that it suppresses high frequency disturbance.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-02_Part1_solutions.pdf#q21; NENG_2026-06_part1-even_solutions.pdf#q21; NENG_2026-06_part1-odd_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The amplitude of sensorimotor rhythms can be voluntarily modulated through the exercise of motor imagery, to build a cursor control based on a BCI.",
+    "answers_seen": "T:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q22; 3.P1.Solutions_Sep2023.pdf#q22; NENG_2024-02_Part1_solutions.pdf#q26"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The amplitude of the mu rhythm is increased at the beginning of a motor task",
+    "answers_seen": "F:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q4; 2.P1.odd Solutions Jul2022.pdf#q1; 5.P1 Solutions Jan2023.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The Butterworth filter is a design method in the family of FIR",
+    "answers_seen": "F:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q21; 3.P1.Solutions_Sep2023.pdf#q21; NENG_2024-02_Part1_solutions.pdf#q25"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The CMRR of a bipolar amplifier measures how much higher is the gain of the potential difference between the input electrodes with respect to the gain of their average with respect to the electrical ground.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q5; NENG_2025-04_Part1_solutions.pdf#q11; NENG_2025-09_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The input impedance of a biosignal amplifier must be many orders of magnitude higher than the contact impedance of the electrodes. It is usual to have input impedances in the order of 108 Ω.",
+    "answers_seen": "T:3",
+    "sources": "1.P1.even solutions Jun2022.pdf#q1; 1.P1.odd solutions Jun2022.pdf#q3; 2.P1.NewModalities_Solutions_Jul2023.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The Inter-Stimulus Interval (ISI) measures the time interval between the end of a stimulus and the beginning of the following one.",
+    "answers_seen": "T:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q13; 2.P1.odd Solutions Jul2022.pdf#q11; 5.P1 Solutions Jan2023.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The most common and theoretically perfect method for reconstructing an analog signal from its samples is by connecting the sample points with straight lines (linear interpolation).",
+    "answers_seen": "F:3",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q15; NENG_2026-06_part1-even_solutions.pdf#q8; NENG_2026-06_part1-odd_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The position of the reference electrode can strongly influence the shape and amplitude of EEG potentials. The profile (i.e. disregarding the actual potential value) of scalp topographies are not influenced.",
+    "answers_seen": "T:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q8; 2.P1.odd Solutions Jul2022.pdf#q6; 5.P1 Solutions Jan2023.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The potential at the peak of the EP component P20 is higher than the potential at the peak of the N100 component",
+    "answers_seen": "T:3",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q10; NENG_2024-02_Part1_solutions.pdf#q12; NENG_2025-07_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The potential at the peak of the EP component P20 is lower than the potential at the peak of the N100 component",
+    "answers_seen": "F:3",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q7; 2.P1.odd Solutions Jul2022.pdf#q10; 5.P1 Solutions Jan2023.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The RMS and the ARV of a zero-mean signal have the same value (assume that the number of samples 𝑁 → ∞).",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q20; NENG_2024-07_Part1-odd_solutions.pdf#q10; NENG_2025-04_Part1_solutions.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "The Shannon’s theorem states that a continuous signal can be properly sampled only if it does not contain frequency components above the sampling rate.",
+    "answers_seen": "F:3",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q11; NENG_2024-07_Part1-odd_solutions.pdf#q12; NENG_2025-04_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 3,
+    "question": "When recording EPs, the spontaneous EEG is to be considered a noise that completely masks the EPs on the recorded waveform.",
+    "answers_seen": "T:3",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q7; NENG_2024-07_Part1-odd_solutions.pdf#q18; NENG_2024-10_Part1_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "A negative peak in a ERP recorded on a specific subject with a latency of 108𝑚𝑠 may still be named N100, if it matches the physiological phenomenon of the nominal N100 component.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q14; NENG_2024-06_Part1-odd_solutions.pdf#q8; NENG_2024-09_Part1_solutions.pdf#q12; NENG_2025-06_part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "A single cell of the muscular tissue is known as a muscle fiber.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q20; NENG_2025-09_Part1_solutions.pdf#q22; NENG_2026-06_part1-even_solutions.pdf#q10; NENG_2026-06_part1-odd_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "Ag/AgCl electrodes allow recording of extremely slow-changing EEG potentials.",
+    "answers_seen": "T:4",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q1; 2.P1.NewModalities_Solutions_Jul2023.pdf#q23; 2.P1.odd Solutions Jul2022.pdf#q3; NENG_2024-03_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "An EEG recording is said to be bipolar when it comprises exactly two channels",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q19; NENG_2024-07_Part1-odd_solutions.pdf#q11; NENG_2024-10_Part1_solutions.pdf#q6; NENG_2025-04_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "An eyeblink produces an artifact which often interferes with the analysis of the beta band of the EEG.",
+    "answers_seen": "F:4",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q7; 3.P1 Solutions sep2022.pdf#q7; 3.P1.Solutions_Sep2023.pdf#q7; NENG_2025-07_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "EEG electrodes whose first letter of the label is “C” (e.g. “Cz”) are located on the central region of the head, i.e. the region between the left and the right hemisphere",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q16; NENG_2024-06_Part1-odd_solutions.pdf#q4; NENG_2024-09_Part1_solutions.pdf#q8; NENG_2025-02_Part1_solutions.pdf#q12"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "EEG signals recorded in monopolar configuration can be re-referenced to the Common Average Reference (CAR), by subtracting from each channel the instantaneous average of all channels. In ideal conditions, this would approximate taking the reference potential at infinity.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q5; NENG_2024-07_Part1-odd_solutions.pdf#q8; NENG_2024-10_Part1_solutions.pdf#q7; NENG_2025-04_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "Event-Related Desynchronization/Synchronization (ERD/S) quantify relative changes of the power of the EEG rhythm in a predefined frequency range, relative to a baseline period.",
+    "answers_seen": "T:4",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q13; 2.P1.even Solutions Jul2022.pdf#q15; 2.P1.odd Solutions Jul2022.pdf#q13; 5.P1 Solutions Jan2023.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "Evoked potential is synonymous of Event-Related Potentials",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q19; NENG_2024-06_Part1-odd_solutions.pdf#q24; NENG_2024-09_Part1_solutions.pdf#q3; NENG_2025-02_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "Given 100 independent and identically distributed random variables with variance equal to 4, the variance of their average is 0.04?",
+    "answers_seen": "T:4",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q17; 2.P1.odd Solutions Jul2022.pdf#q19; 5.P1 Solutions Jan2023.pdf#q17; NENG_2025-07_Part1_solutions.pdf#q19"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "If the electrodes’ contact impedance is not much lower than the amplifier’s input impedance the amplitude of the measured potential is closer to zero than the actual value.",
+    "answers_seen": "T:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q2; 1.P1.odd solutions Jun2022.pdf#q4; 2.P1.NewModalities_Solutions_Jul2023.pdf#q4; NENG_2024-03_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "In a gaussian noise, the probability density that a sample has a given amplitude value follows the normal distribution with zero mean.",
+    "answers_seen": "T:4",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q16; 2.P1.odd Solutions Jul2022.pdf#q18; 3.P1.Solutions_Sep2023.pdf#q18; 5.P1 Solutions Jan2023.pdf#q16"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "In a P300-based BCI, the user subjectively assigns saliency (relevance) to a stimulus so that their brain produces a P300 ERP every time the stimulus is administered",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q1; NENG_2024-07_Part1-odd_solutions.pdf#q19; NENG_2024-10_Part1_solutions.pdf#q24; NENG_2025-04_Part1_solutions.pdf#q20"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "In an ERP, the response to a stimulus has a reduced amplitude when the SOA is too short.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q9; NENG_2024-06_Part1-odd_solutions.pdf#q9; NENG_2024-09_Part1_solutions.pdf#q13; NENG_2025-02_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "In ERP analysis, ‘trials’ are portions of the continuous EEG recording that start exactly at the time when a sensory stimulus was delivered",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q8; NENG_2024-07_Part1-odd_solutions.pdf#q5; NENG_2024-10_Part1_solutions.pdf#q12; NENG_2025-04_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "In the electrode labels of the International 10-20 System, odd numbers designate electrodes on the right side of the head",
+    "answers_seen": "F:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q8; 1.P1.odd solutions Jun2022.pdf#q6; 2.P1.NewModalities_Solutions_Jul2023.pdf#q6; NENG_2024-03_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "It is more likely that samples of zero mean a gaussian noise will have amplitude in the range [- 0.5,+0.5] rather than in [0.5,1.5]",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q1; NENG_2024-06_Part1-odd_solutions.pdf#q5; NENG_2024-09_Part1_solutions.pdf#q19; NENG_2025-09_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "Sweating can affect the EEG, causing an increase of contact impedance and an increase of powerline noise",
+    "answers_seen": "F:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q10; 1.P1.odd solutions Jun2022.pdf#q8; 2.P1.NewModalities_Solutions_Jul2023.pdf#q8; 3.P1.Solutions_Sep2023.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 14 and 30 Hz (approximately)",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q21; NENG_2024-06_Part1-odd_solutions.pdf#q22; NENG_2024-09_Part1_solutions.pdf#q2; NENG_2025-02_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The CMRR of an EEG amplifier should be higher than 90 dB",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q13; NENG_2024-07_Part1-odd_solutions.pdf#q6; NENG_2024-10_Part1_solutions.pdf#q4; NENG_2025-07_Part1_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The delta and theta frequency bands identify frequencies lower than those in the alpha band",
+    "answers_seen": "T:4",
+    "sources": "1.P1.even solutions Jun2022.pdf#q5; 1.P1.odd solutions Jun2022.pdf#q2; 2.P1.NewModalities_Solutions_Jul2023.pdf#q2; NENG_2024-03_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The frequency response of a filter in the stopband should be plotted in a graph whose vertical axis has a logarithmic scale (i.e. the gain is expressed in dB).",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q18; NENG_2024-06_Part1-odd_solutions.pdf#q14; NENG_2024-09_Part1_solutions.pdf#q22; NENG_2025-02_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The mu rhythm and the alpha rhythm are EEG components that differ for their fundamental frequency of oscillation",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q24; NENG_2024-07_Part1-odd_solutions.pdf#q16; NENG_2024-10_Part1_solutions.pdf#q1; NENG_2025-04_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The N20 component of an EP occurs before the stimulus (negative latency) while the P300 occurs after the stimulus (positive latency).",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q4; NENG_2024-07_Part1-odd_solutions.pdf#q3; NENG_2024-10_Part1_solutions.pdf#q13; NENG_2025-04_Part1_solutions.pdf#q15"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The powerline noise affects a very narrow frequency band of the recorded signal around 50 Hz (in Europe) and odd multiples of (150 Hz, 250 Hz, …).",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q15; NENG_2024-07_Part1-odd_solutions.pdf#q9; NENG_2024-10_Part1_solutions.pdf#q9; NENG_2025-04_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The proper (visual) alpha rhythm is modulated (synchronized, desynchronized) by opening and closing the eyes. This phenomenon is best observed on the frontal EEG channels.",
+    "answers_seen": "F:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q5; NENG_2024-06_Part1-odd_solutions.pdf#q18; NENG_2024-09_Part1_solutions.pdf#q1; NENG_2025-02_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The reconstruction of an analog signal from its sampled version is equivalent to the sum a set of 𝑠𝑖𝑛𝑐(⋅) functions, one for each sample.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q23; NENG_2024-06_Part1-odd_solutions.pdf#q13; NENG_2024-09_Part1_solutions.pdf#q15; NENG_2025-06_part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The roll-off of a filter is the slope of its frequency response in the transition band. It is high when the transition band is narrow.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q10; NENG_2024-07_Part1-odd_solutions.pdf#q1; NENG_2024-10_Part1_solutions.pdf#q22; NENG_2025-04_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The Short Time Fourier Transform (STFT) is a simple method to estimate a spectrogram, i.e. the representation of the time-varying spectrum of a non-stationary signal.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2024-07_Part1-even_solutions.pdf#q23; NENG_2024-07_Part1-odd_solutions.pdf#q2; NENG_2024-10_Part1_solutions.pdf#q21; NENG_2025-04_Part1_solutions.pdf#q23"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "The spectral leakage phenomenon is observed, for instance, when comparing the spectrum of a signal with the spectrum of a short section of the same signal.",
+    "answers_seen": "T:4",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q18; 2.P1.odd Solutions Jul2022.pdf#q20; 3.P1.Solutions_Sep2023.pdf#q20; 5.P1 Solutions Jan2023.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 4,
+    "question": "When sampling at 100 Hz, a 75 Hz analog signal component will alias and appear at 25 Hz.",
+    "answers_seen": "T:4",
+    "sources": "NENG_2025-07_Part1_solutions.pdf#q4; NENG_2025-09_Part1_solutions.pdf#q15; NENG_2026-06_part1-even_solutions.pdf#q7; NENG_2026-06_part1-odd_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "A FIR filter needs to be of a higher order to achieve the same quality specifications than a IIR filter.",
+    "answers_seen": "T:5",
+    "sources": "3.P1 Solutions sep2022.pdf#q21; NENG_2024-07_Part1-even_solutions.pdf#q3; NENG_2024-07_Part1-odd_solutions.pdf#q21; NENG_2024-10_Part1_solutions.pdf#q23; NENG_2025-04_Part1_solutions.pdf#q8"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "A sudden upwards movement of the eyes generates a positive deflection of EEG potentials (EOG) on the Fz channel.",
+    "answers_seen": "T:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q9; 1.P1.odd solutions Jun2022.pdf#q7; 2.P1.NewModalities_Solutions_Jul2023.pdf#q7; NENG_2024-03_Part1_solutions.pdf#q9; NENG_2025-09_Part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Aliasing can be prevented by applying a digital low-pass filter with cutoff frequency lower than the Nyquist frequency.",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q12; 1.P1.odd solutions Jun2022.pdf#q14; 2.P1.NewModalities_Solutions_Jul2023.pdf#q14; 3.P1 Solutions sep2022.pdf#q16; NENG_2024-03_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Aliasing occurs when an analog signal is sampled using a limited input range of the ADC.",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q6; NENG_2024-06_Part1-odd_solutions.pdf#q1; NENG_2024-09_Part1_solutions.pdf#q16; NENG_2025-02_Part1_solutions.pdf#q10; NENG_2025-06_part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Aliasing occurs when an artifact corrupts an otherwise healthy EEG recording.",
+    "answers_seen": "F:5",
+    "sources": "3.P1 Solutions sep2022.pdf#q15; NENG_2024-07_Part1-even_solutions.pdf#q9; NENG_2024-07_Part1-odd_solutions.pdf#q24; NENG_2024-10_Part1_solutions.pdf#q16; NENG_2025-04_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Appropriate application of a high-pass digital filter may prevent saturation by removing high amplitude slow artifacts.",
+    "answers_seen": "F:5",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q19; 2.P1.odd Solutions Jul2022.pdf#q16; 5.P1 Solutions Jan2023.pdf#q19; NENG_2024-02_Part1_solutions.pdf#q19; NENG_2025-09_Part1_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Brain activity in response to a stimulus can be non-phase-locked, meaning that they show variable latency (jitter) at each repetition. This activity is called induced.",
+    "answers_seen": "T:5",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q14; 2.P1.NewModalities_Solutions_Jul2023.pdf#q25; 2.P1.odd Solutions Jul2022.pdf#q12; 5.P1 Solutions Jan2023.pdf#q14; NENG_2024-03_Part1_solutions.pdf#q14"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Despite being more expensive, gold electrodes should be preferred to Ag/AgCl electrodes since they allow recording of extremely slow-changing EEG potentials.",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q24; NENG_2024-06_Part1-odd_solutions.pdf#q15; NENG_2024-09_Part1_solutions.pdf#q4; NENG_2025-02_Part1_solutions.pdf#q11; NENG_2025-06_part1_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "Event-Related Desynchronization/Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q11; 1.P1.odd solutions Jun2022.pdf#q13; 2.P1.NewModalities_Solutions_Jul2023.pdf#q13; 3.P1 Solutions sep2022.pdf#q13; 3.P1.Solutions_Sep2023.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "In ERP analysis, the EEG continuous recording must be segmented into epochs (trials) of fixed duration, each aligned to a repetition of the event",
+    "answers_seen": "T:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q8; NENG_2024-06_Part1-odd_solutions.pdf#q23; NENG_2024-09_Part1_solutions.pdf#q11; NENG_2025-02_Part1_solutions.pdf#q15; NENG_2025-06_part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The artifact generated by eye movements can reach amplitudes up to 5𝜇𝑉 in the EEG recordings",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q11; NENG_2024-06_Part1-odd_solutions.pdf#q20; NENG_2024-09_Part1_solutions.pdf#q9; NENG_2025-02_Part1_solutions.pdf#q6; NENG_2025-06_part1_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The Central Limit Theorem (CLT) states that the average of 𝑁 zero-mean independent identically distributed signals approaches zero for 𝑁 → ∞.",
+    "answers_seen": "T:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q10; NENG_2024-06_Part1-odd_solutions.pdf#q17; NENG_2024-09_Part1_solutions.pdf#q20; NENG_2025-02_Part1_solutions.pdf#q16; NENG_2025-06_part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The CMRR of a bipolar amplifier measures the ratio between the gain of their average with respect to the electrical ground and the gain of the potential difference between the input electrodes.",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q4; NENG_2024-06_Part1-odd_solutions.pdf#q12; NENG_2024-09_Part1_solutions.pdf#q5; NENG_2025-02_Part1_solutions.pdf#q9; NENG_2025-06_part1_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The contact impedances of a pair of electrodes should be large compared to the input impedance of the differential amplifier connected to them, otherwise the amplitude of the signal would be reduced as effect of the potential divider.",
+    "answers_seen": "F:5",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q6; NENG_2024-07_Part1-even_solutions.pdf#q12; NENG_2024-07_Part1-odd_solutions.pdf#q20; NENG_2024-10_Part1_solutions.pdf#q5; NENG_2025-04_Part1_solutions.pdf#q9"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The difference of contact impedances of electrodes should be small compared to the input difference of the differential amplifier, otherwise the resulting unbalance compromises its common-mode rejection capability.",
+    "answers_seen": "T:5",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q4; 2.P1.even Solutions Jul2022.pdf#q3; 2.P1.odd Solutions Jul2022.pdf#q5; 3.P1.Solutions_Sep2023.pdf#q3; 5.P1 Solutions Jan2023.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The heart activity is likely to contaminate an EEG recording if the reference electrode is not placed on the head.",
+    "answers_seen": "T:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q17; NENG_2024-06_Part1-odd_solutions.pdf#q2; NENG_2024-09_Part1_solutions.pdf#q10; NENG_2025-02_Part1_solutions.pdf#q2; NENG_2025-06_part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The measurement of two monopolar EEG channels requires four electrodes – two collecting the potentials fed to the non-inverting input of the differential amplifier, one providing the reference potential and one providing the ground potential.",
+    "answers_seen": "T:5",
+    "sources": "NENG_2024-06_Part1-even_solutions.pdf#q22; NENG_2024-06_Part1-odd_solutions.pdf#q3; NENG_2024-09_Part1_solutions.pdf#q6; NENG_2025-02_Part1_solutions.pdf#q13; NENG_2025-06_part1_solutions.pdf#q21"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The output of FIR filters is the linear combination of samples of the input. The output of IIR filters combines both samples of the input and past samples of the output.",
+    "answers_seen": "T:5",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q22; 2.P1.NewModalities_Solutions_Jul2023.pdf#q26; 2.P1.odd Solutions Jul2022.pdf#q21; 5.P1 Solutions Jan2023.pdf#q22; NENG_2024-03_Part1_solutions.pdf#q24"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The probability distribution of the average of 𝑁 independent and identically distributed random variables approaches zero for 𝑁 → ∞",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q16; 1.P1.NewModalities_Solutions_Jun2023.pdf#q26; 1.P1.odd solutions Jun2022.pdf#q19; 2.P1.NewModalities_Solutions_Jul2023.pdf#q19; NENG_2024-03_Part1_solutions.pdf#q22"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The proper (visual) alpha rhythm is generated in the frontal lobe of the cerebral cortex.",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q4; 1.P1.odd solutions Jun2022.pdf#q1; 2.P1.NewModalities_Solutions_Jul2023.pdf#q1; NENG_2024-03_Part1_solutions.pdf#q1; NENG_2025-07_Part1_solutions.pdf#q18"
+  },
+  {
+    "part": "B",
+    "occurrences": 5,
+    "question": "The RMS is the average of the squared value of the samples of a signal",
+    "answers_seen": "F:5",
+    "sources": "1.P1.even solutions Jun2022.pdf#q19; 1.P1.odd solutions Jun2022.pdf#q17; 2.P1.NewModalities_Solutions_Jul2023.pdf#q17; NENG_2024-03_Part1_solutions.pdf#q20; NENG_2025-07_Part1_solutions.pdf#q10"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "An IIR filter can be designed to have “linear phase”, so that they do not introduce time- domain distortions in the waveform of the output signal.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q21; 1.P1.odd solutions Jun2022.pdf#q21; 2.P1.NewModalities_Solutions_Jul2023.pdf#q21; 3.P1.Solutions_Sep2023.pdf#q19; NENG_2024-03_Part1_solutions.pdf#q25; NENG_2024-06_Part1-odd_solutions.pdf#q11"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "Event-Related Desynchronization/ Synchronization (ERD/S) quantify the amount of coupling between signals on two EEG channels.",
+    "answers_seen": "F:6",
+    "sources": "NENG_2024-03_Part1_solutions.pdf#q3; NENG_2024-07_Part1-even_solutions.pdf#q21; NENG_2024-07_Part1-odd_solutions.pdf#q22; NENG_2024-10_Part1_solutions.pdf#q3; NENG_2025-04_Part1_solutions.pdf#q3; NENG_2025-06_part1_solutions.pdf#q3"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "Event-Related Desynchronization/Synchronization (ERD/S) quantify phase-locked brain activity in response to an event",
+    "answers_seen": "F:6",
+    "sources": "NENG_2024-02_Part1_solutions.pdf#q15; NENG_2024-07_Part1-even_solutions.pdf#q2; NENG_2024-07_Part1-odd_solutions.pdf#q4; NENG_2024-10_Part1_solutions.pdf#q14; NENG_2025-04_Part1_solutions.pdf#q4; NENG_2025-09_Part1_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "Evoked Potentials are deflection of the EEG signal following the presentation of a sensory input.",
+    "answers_seen": "T:6",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q5; 2.P1.odd Solutions Jul2022.pdf#q2; 5.P1 Solutions Jan2023.pdf#q5; NENG_2024-07_Part1-even_solutions.pdf#q6; NENG_2024-07_Part1-odd_solutions.pdf#q14; NENG_2025-04_Part1_solutions.pdf#q1"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "Movements of the subject’s head produces artifacts only in the gamma band.",
+    "answers_seen": "F:6",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q6; 2.P1.odd Solutions Jul2022.pdf#q9; 5.P1 Solutions Jan2023.pdf#q6; NENG_2024-07_Part1-even_solutions.pdf#q14; NENG_2024-07_Part1-odd_solutions.pdf#q13; NENG_2025-04_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "Synchronized averaging of N EEG trials produces N values each corresponding to the average value of the potential in each trial.",
+    "answers_seen": "F:6",
+    "sources": "1.P1.even solutions Jun2022.pdf#q14; 1.P1.odd solutions Jun2022.pdf#q11; 2.P1.NewModalities_Solutions_Jul2023.pdf#q11; 3.P1.Solutions_Sep2023.pdf#q11; NENG_2024-03_Part1_solutions.pdf#q12; NENG_2025-07_Part1_solutions.pdf#q6"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "The advantage of a high CMRR amplifier is that it suppresses common-mode disturbances such as powerline (50 Hz) noise.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q3; 2.P1.even Solutions Jul2022.pdf#q2; 2.P1.odd Solutions Jul2022.pdf#q4; 3.P1.Solutions_Sep2023.pdf#q24; 5.P1 Solutions Jan2023.pdf#q2; NENG_2024-02_Part1_solutions.pdf#q5"
+  },
+  {
+    "part": "B",
+    "occurrences": 6,
+    "question": "The frequency spectrum of white noise is flat, i.e. it has the same power at any frequency.",
+    "answers_seen": "T:6",
+    "sources": "1.P1.NewModalities_Solutions_Jun2023.pdf#q18; NENG_2024-02_Part1_solutions.pdf#q21; NENG_2024-07_Part1-even_solutions.pdf#q18; NENG_2024-07_Part1-odd_solutions.pdf#q15; NENG_2024-10_Part1_solutions.pdf#q20; NENG_2025-04_Part1_solutions.pdf#q7"
+  },
+  {
+    "part": "B",
+    "occurrences": 7,
+    "question": "Induced activity is often examined by analyzing the envelope of the EEG in a relevant frequency band, i.e. by rectifying or squaring the pass-band filtered trials before averaging them.",
+    "answers_seen": "T:7",
+    "sources": "1.P1.odd solutions Jun2022.pdf#q12; 2.P1.NewModalities_Solutions_Jul2023.pdf#q12; NENG_2024-03_Part1_solutions.pdf#q15; NENG_2024-06_Part1-even_solutions.pdf#q3; NENG_2024-06_Part1-odd_solutions.pdf#q10; NENG_2024-09_Part1_solutions.pdf#q14; NENG_2025-06_part1_solutions.pdf#q4"
+  },
+  {
+    "part": "B",
+    "occurrences": 7,
+    "question": "Notch filters effectively remove powerline noise because they reject all signals above their corner frequency.",
+    "answers_seen": "F:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q6; 1.P1.odd solutions Jun2022.pdf#q9; 2.P1.NewModalities_Solutions_Jul2023.pdf#q9; 3.P1.Solutions_Sep2023.pdf#q9; NENG_2024-03_Part1_solutions.pdf#q11; NENG_2025-07_Part1_solutions.pdf#q12; NENG_2025-09_Part1_solutions.pdf#q13"
+  },
+  {
+    "part": "B",
+    "occurrences": 7,
+    "question": "The P300 ERP generated by attending a target stimulus is exploited to build virtual keyboards based on a BCI",
+    "answers_seen": "T:7",
+    "sources": "2.P1.even Solutions Jul2022.pdf#q21; 2.P1.odd Solutions Jul2022.pdf#q22; 3.P1 Solutions sep2022.pdf#q22; NENG_2025-07_Part1_solutions.pdf#q8; NENG_2025-09_Part1_solutions.pdf#q23; NENG_2026-06_part1-even_solutions.pdf#q18; NENG_2026-06_part1-odd_solutions.pdf#q17"
+  },
+  {
+    "part": "B",
+    "occurrences": 7,
+    "question": "The SOA is always greater than the ISI",
+    "answers_seen": "T:7",
+    "sources": "1.P1.even solutions Jun2022.pdf#q7; 1.P1.NewModalities_Solutions_Jun2023.pdf#q24; 1.P1.odd solutions Jun2022.pdf#q10; 2.P1.NewModalities_Solutions_Jul2023.pdf#q10; NENG_2024-03_Part1_solutions.pdf#q13; NENG_2025-07_Part1_solutions.pdf#q17; NENG_2025-09_Part1_solutions.pdf#q2"
+  },
+  {
+    "part": "B",
+    "occurrences": 8,
+    "question": "The amplitude of a P300 event related potential be voluntarily modulated through the exercise of motor imagery, to build a cursor control based on a BCI.",
+    "answers_seen": "F:8",
+    "sources": "1.P1.even solutions Jun2022.pdf#q22; 1.P1.odd solutions Jun2022.pdf#q22; 2.P1.NewModalities_Solutions_Jul2023.pdf#q22; NENG_2024-03_Part1_solutions.pdf#q26; NENG_2024-06_Part1-even_solutions.pdf#q2; NENG_2024-06_Part1-odd_solutions.pdf#q16; NENG_2024-09_Part1_solutions.pdf#q24; NENG_2025-06_part1_solutions.pdf#q20"
+  }
+]
